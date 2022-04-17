@@ -1,7 +1,17 @@
-var builder = WebApplication.CreateBuilder(args);
+using Microsoft.EntityFrameworkCore;
+using ZoneTech.Data;
+using ZoneTech.Repository;
+using ZoneTech.Services;
 
+var builder = WebApplication.CreateBuilder(args);
+//16/abril/2022
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<ApplicationDBContext>(options =>options.UseSqlServer(@"Server=MIGUEL-TOSHIBA\SQLEXPRESS01;Database=ZoneTechProyect; TrustServerCertificate=true; Trusted_Connection=true; Connection Timeout= 30; Integrated Security=true; Persist Security Info= false; Encrypt= true; MultipleActiveResultSets=true;"));
+
+//builder.Services.AddTransient<IEstado, EstadoRE>();
+
 
 var app = builder.Build();
 
