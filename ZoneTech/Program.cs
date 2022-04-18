@@ -1,7 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using ZoneTech.Data;
-using ZoneTech.Repository;
-using ZoneTech.Services;
+
 
 var builder = WebApplication.CreateBuilder(args);
 //16/abril/2022

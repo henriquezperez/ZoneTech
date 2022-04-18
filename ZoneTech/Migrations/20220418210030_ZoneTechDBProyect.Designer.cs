@@ -12,7 +12,7 @@ using ZoneTech.Data;
 namespace ZoneTech.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
-    [Migration("20220417055853_ZoneTechDBProyect")]
+    [Migration("20220418210030_ZoneTechDBProyect")]
     partial class ZoneTechDBProyect
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -451,6 +451,11 @@ namespace ZoneTech.Migrations
 
                     b.Property<int>("EstadoId")
                         .HasColumnType("int");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasMaxLength(25)
+                        .HasColumnType("nvarchar(25)");
 
                     b.Property<string>("RutaImagen")
                         .IsRequired()
