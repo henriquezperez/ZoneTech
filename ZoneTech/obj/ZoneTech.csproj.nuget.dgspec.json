@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Mis archivos\\Escritorio\\Proyecto ASP.NET\\ZoneTech\\ZoneTech\\ZoneTech.csproj": {}
+    "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\ZoneTech.csproj": {}
   },
   "projects": {
-    "E:\\Mis archivos\\Escritorio\\Proyecto ASP.NET\\ZoneTech\\ZoneTech\\ZoneTech.csproj": {
+    "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\ZoneTech.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Mis archivos\\Escritorio\\Proyecto ASP.NET\\ZoneTech\\ZoneTech\\ZoneTech.csproj",
+        "projectUniqueName": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\ZoneTech.csproj",
         "projectName": "ZoneTech",
-        "projectPath": "E:\\Mis archivos\\Escritorio\\Proyecto ASP.NET\\ZoneTech\\ZoneTech\\ZoneTech.csproj",
-        "packagesPath": "C:\\Users\\Miguel\\.nuget\\packages\\",
-        "outputPath": "E:\\Mis archivos\\Escritorio\\Proyecto ASP.NET\\ZoneTech\\ZoneTech\\obj\\",
+        "projectPath": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\ZoneTech.csproj",
+        "packagesPath": "C:\\Users\\denil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Miguel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\denil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,6 +61,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.4, )"
+            },
+            "bootstrap": {
+              "target": "Package",
+              "version": "[5.1.3, )"
             }
           },
           "imports": [
@@ -81,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
