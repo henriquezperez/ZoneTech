@@ -8683,19 +8683,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\denil\\.nuget\\packages\\": {}
+    "C:\\Users\\Miguel\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\ZoneTech.csproj",
+      "projectUniqueName": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\ZoneTech.csproj",
       "projectName": "ZoneTech",
-      "projectPath": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\ZoneTech.csproj",
-      "packagesPath": "C:\\Users\\denil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\obj\\",
+      "projectPath": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\ZoneTech.csproj",
+      "packagesPath": "C:\\Users\\Miguel\\.nuget\\packages\\",
+      "outputPath": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\denil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Miguel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8766,7 +8766,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

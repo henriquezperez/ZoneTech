@@ -8,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<ApplicationDBContext>(options =>options.UseSqlServer(@"Server=DENILSONPC;Database=ZoneTechProyect; TrustServerCertificate=true; Trusted_Connection=true; Connection Timeout= 30; Integrated Security=true; Persist Security Info= false; Encrypt= true; MultipleActiveResultSets=true;"));
+builder.Services.AddDbContext<ApplicationDBContext>(options =>options.UseSqlServer(@"Server=MIGUEL-TOSHIBA\SQLEXPRESS;Database=ZoneTechProyect; TrustServerCertificate=true; Trusted_Connection=true; Connection Timeout= 30; Integrated Security=true; Persist Security Info= false; Encrypt= true; MultipleActiveResultSets=true;"));
 
 //builder.Services.AddTransient<IEstado, EstadoRE>();
 
@@ -32,6 +32,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Acceso}/{action=Login}/{id?}");
 
 app.Run();

@@ -12,8 +12,8 @@ using ZoneTech.Data;
 namespace ZoneTech.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
-    [Migration("20220418210030_ZoneTechDBProyect")]
-    partial class ZoneTechDBProyect
+    [Migration("20220521001519_zonetechMi")]
+    partial class zonetechMi
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
