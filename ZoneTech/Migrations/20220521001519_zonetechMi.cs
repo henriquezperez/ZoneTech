@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace ZoneTech.Migrations
 {
-    public partial class ZoneTechDBProyect : Migration
+    public partial class zonetechMi : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
