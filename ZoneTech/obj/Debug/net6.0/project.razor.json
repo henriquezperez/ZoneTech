@@ -16308,6 +16308,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Acceso\\PruebaDeAcceso.cshtml",
+      "TargetPath": "Views\\Acceso\\PruebaDeAcceso.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
@@ -16335,6 +16340,11 @@
     {
       "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Acceso\\Denegado.cshtml",
+      "TargetPath": "Views\\Acceso\\Denegado.cshtml",
       "FileKind": "mvc"
     },
     {

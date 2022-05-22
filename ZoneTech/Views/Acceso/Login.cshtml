@@ -1,4 +1,5 @@
-﻿@{
+﻿@model ZoneTech.Models.UsuarioML
+@{
 	Layout = null;
 }
 <! DOCTYPE html>
@@ -23,22 +24,22 @@
 					</div>
 				</div>
 				<div class="d-flex justify-content-center form_container">
-					<form>
+					<form asp-controller="Acceso" asp-action="Login">
 						<div class="input-group mb-3">
 							<div class="input-group-append">
 								<span class="input-group-text"><i class="fas fa-envelope"></i></span>
 							</div>
-							<input type="text" name="" class="form-control input_user" value="" placeholder="Correo">
+							<input type="text" asp-for="Email" class="form-control input_user" value="" placeholder="Correo">
 						</div>
 						<div class="input-group mb-2">
 							<div class="input-group-append">
 								<span class="input-group-text"><i class="fas fa-key"></i></span>
 							</div>
-							<input type="password" name="" class="form-control input_pass" value="" placeholder="Contraseña">
+							<input type="password" asp-for="Clave" class="form-control input_pass">
 						</div>
 						
 							<div class="d-flex justify-content-center mt-3 login_container">
-				 	<button type="button" name="button" class="btn login_btn">Iniciar Sesion</button>
+				 	<button type="submit" name="button" class="btn login_btn">Iniciar Sesion</button>
 				   </div>
 					</form>
 				</div>
