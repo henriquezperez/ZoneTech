@@ -8,7 +8,7 @@ namespace ZoneTech.Services
         public void UpdateArticulo(ArticuloML art);
         public void DeleteArticulo(ArticuloML art);
         public List<ArticuloML> GetAllArticulosList();
-        public ArticuloML LoadInfoArticulos(ArticuloML art);
+        public List<ArticuloML> LoadInfoArticulos(ArticuloML art);
 
     }
 }

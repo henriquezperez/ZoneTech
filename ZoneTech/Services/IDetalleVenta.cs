@@ -7,7 +7,7 @@ namespace ZoneTech.Services
         public void AddDetalleVenta(DetalleVentaML dtm);
        // public void UpdateDetalleVenta(DetalleVentaML dtm);
       //  public void DeleteDetalleVenta(DetalleVentaML dtm);
-        public List<DetalleCompraML> GetAllDetalleVenta();
+        public List<DetalleVentaML> GetAllDetalleVenta();
         public DetalleVentaML LoadInfoDetalleVenta(DetalleVentaML dtm);
     }
 }

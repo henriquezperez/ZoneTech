@@ -1,21 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MINEDUCYT\\Desktop\\ZoneTech\\ZoneTech\\ZoneTech.csproj": {}
+    "C:\\Users\\victo\\Documents\\GitHub\\ZoneTech\\ZoneTech\\ZoneTech.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MINEDUCYT\\Desktop\\ZoneTech\\ZoneTech\\ZoneTech.csproj": {
+    "C:\\Users\\victo\\Documents\\GitHub\\ZoneTech\\ZoneTech\\ZoneTech.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MINEDUCYT\\Desktop\\ZoneTech\\ZoneTech\\ZoneTech.csproj",
+        "projectUniqueName": "C:\\Users\\victo\\Documents\\GitHub\\ZoneTech\\ZoneTech\\ZoneTech.csproj",
         "projectName": "ZoneTech",
-        "projectPath": "C:\\Users\\MINEDUCYT\\Desktop\\ZoneTech\\ZoneTech\\ZoneTech.csproj",
-        "packagesPath": "C:\\Users\\MINEDUCYT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MINEDUCYT\\Desktop\\ZoneTech\\ZoneTech\\obj\\",
+        "projectPath": "C:\\Users\\victo\\Documents\\GitHub\\ZoneTech\\ZoneTech\\ZoneTech.csproj",
+        "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\victo\\Documents\\GitHub\\ZoneTech\\ZoneTech\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\MINEDUCYT\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -85,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
