@@ -8683,20 +8683,45 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
+    "C:\\Users\\victo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+=======
     "C:\\Users\\Miguel\\.nuget\\packages\\": {}
+>>>>>>> 5fc7bc36ee83ee7c70992d44bff5a0b85011ab3b
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\victo\\Documents\\GitHub\\ZoneTech\\ZoneTech\\ZoneTech.csproj",
+      "projectName": "ZoneTech",
+      "projectPath": "C:\\Users\\victo\\Documents\\GitHub\\ZoneTech\\ZoneTech\\ZoneTech.csproj",
+      "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\victo\\Documents\\GitHub\\ZoneTech\\ZoneTech\\obj\\",
+=======
       "projectUniqueName": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\ZoneTech.csproj",
       "projectName": "ZoneTech",
       "projectPath": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\ZoneTech.csproj",
       "packagesPath": "C:\\Users\\Miguel\\.nuget\\packages\\",
       "outputPath": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\obj\\",
+>>>>>>> 5fc7bc36ee83ee7c70992d44bff5a0b85011ab3b
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
+<<<<<<< HEAD
+        "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+=======
         "C:\\Users\\Miguel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+>>>>>>> 5fc7bc36ee83ee7c70992d44bff5a0b85011ab3b
       ],
       "originalTargetFrameworks": [
         "net6.0"

@@ -211,3 +211,14 @@ E:\Biblioteca\Escritorio\ZoneTech\ZoneTech\obj\Debug\net6.0\refint\ZoneTech.dll
 E:\Biblioteca\Escritorio\ZoneTech\ZoneTech\obj\Debug\net6.0\ZoneTech.pdb
 E:\Biblioteca\Escritorio\ZoneTech\ZoneTech\obj\Debug\net6.0\ZoneTech.genruntimeconfig.cache
 E:\Biblioteca\Escritorio\ZoneTech\ZoneTech\obj\Debug\net6.0\ref\ZoneTech.dll
+C:\Users\victo\Documents\GitHub\ZoneTech\ZoneTech\obj\Debug\net6.0\ZoneTech.csproj.AssemblyReference.cache
+C:\Users\victo\Documents\GitHub\ZoneTech\ZoneTech\obj\Debug\net6.0\ZoneTech.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo\Documents\GitHub\ZoneTech\ZoneTech\obj\Debug\net6.0\ZoneTech.AssemblyInfoInputs.cache
+C:\Users\victo\Documents\GitHub\ZoneTech\ZoneTech\obj\Debug\net6.0\ZoneTech.AssemblyInfo.cs
+C:\Users\victo\Documents\GitHub\ZoneTech\ZoneTech\obj\Debug\net6.0\ZoneTech.csproj.CoreCompileInputs.cache
+C:\Users\victo\Documents\GitHub\ZoneTech\ZoneTech\obj\Debug\net6.0\ZoneTech.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\victo\Documents\GitHub\ZoneTech\ZoneTech\obj\Debug\net6.0\ZoneTech.RazorAssemblyInfo.cache
+C:\Users\victo\Documents\GitHub\ZoneTech\ZoneTech\obj\Debug\net6.0\ZoneTech.RazorAssemblyInfo.cs
+C:\Users\victo\Documents\GitHub\ZoneTech\ZoneTech\obj\Debug\net6.0\ZoneTech.dll
+C:\Users\victo\Documents\GitHub\ZoneTech\ZoneTech\obj\Debug\net6.0\refint\ZoneTech.dll
+C:\Users\victo\Documents\GitHub\ZoneTech\ZoneTech\obj\Debug\net6.0\ZoneTech.pdb

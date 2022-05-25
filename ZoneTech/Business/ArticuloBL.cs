@@ -3,7 +3,7 @@ using ZoneTech.Services;
 
 namespace ZoneTech.Business
 {
-    public class ArticuloBL : IArticulo
+    public class ArticuloBL
     {
         public void AddArticulo(ArticuloML art)
         {
