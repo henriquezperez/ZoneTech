@@ -29,6 +29,14 @@ namespace ZoneTech.Controllers
             return View("Articulos");
         }
 
+        public IActionResult DeleteArticulo(int id){
+            ArticuloML art = new ArticuloML();
+            art.ArticuloId = id;
+            db.ArticuloTBL.Remove(art);
+            db.SaveChanges();
+            return View();
+        }
+
         public IActionResult Articulonuevo(){
             var list = db.MarcaTBL.ToList();
             var listCa = db.CategoriaTBL.ToList();
@@ -50,6 +58,36 @@ namespace ZoneTech.Controllers
                                 Existencia = inv.Existencia
                         };
             ViewBag.query = list;
+            return View();
+        }
+        //Create
+        public IActionResult EstadoNuevo(EstadoML est){
+            db.EstadoTBL.Add(est);
+            db.SaveChanges();
+            return View("Estado");
+        }
+
+        //READ
+        public IActionResult Estado(){
+            var lista = db.EstadoTBL.ToList();
+            ViewBag.listado = lista;
+            return View();
+        }
+        //UPDATE
+        public IActionResult EstadoEditar(EstadoML est){
+            db.EstadoTBL.Update(est);
+            db.SaveChanges();
+            return View();
+        }
+        //DELETE
+        public IActionResult EstadoEliminar(int id){
+            EstadoML est = new EstadoML();
+            est.EstadoId = id;
+            var query = db.EstadoTBL.Where(x=>x.EstadoId.Equals(id));
+            if(query != null){
+                db.EstadoTBL.Remove(est);
+                db.SaveChanges();
+            }
             return View();
         }
 
