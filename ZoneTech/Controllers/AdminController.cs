@@ -61,12 +61,16 @@ namespace ZoneTech.Controllers
             return View();
         }
         //Create
-        public IActionResult EstadoNuevo(EstadoML est){
-            db.EstadoTBL.Add(est);
-            db.SaveChanges();
-            return View("Estado");
+        public IActionResult EstadoNuevo(){
+            return View();
         }
 
+        public IActionResult InsertEstado(EstadoML est){
+            db.EstadoTBL.Add(est);
+            db.SaveChanges();
+            return RedirectToAction("Estado");
+        }
+        //Usar RedirectToAction para redireccionar
         //READ
         public IActionResult Estado(){
             var lista = db.EstadoTBL.ToList();
@@ -88,7 +92,7 @@ namespace ZoneTech.Controllers
                 db.EstadoTBL.Remove(est);
                 db.SaveChanges();
             }
-            return View();
+            return RedirectToAction("Estado");
         }
 
         public IActionResult ControlAdmin(){

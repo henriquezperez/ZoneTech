@@ -59,6 +59,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ29udHJvbEFkbWluLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Biblioteca/Escritorio/ZoneTech/ZoneTech/Views/Admin/Estado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRXN0YWRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Biblioteca/Escritorio/ZoneTech/ZoneTech/Views/Admin/EstadoNuevo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRXN0YWRvTnVldm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Biblioteca/Escritorio/ZoneTech/ZoneTech/Views/Admin/Inventario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW52ZW50YXJpby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
