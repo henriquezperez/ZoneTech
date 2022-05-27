@@ -8683,28 +8683,41 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\victo\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+=======
+    "C:\\Users\\Miguel\\.nuget\\packages\\": {}
+>>>>>>> 90fc9815ecb98a98e57835117234336139b9df88
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\victo\\Documents\\GitHub\\ZoneTech\\ZoneTech\\ZoneTech.csproj",
       "projectName": "ZoneTech",
       "projectPath": "C:\\Users\\victo\\Documents\\GitHub\\ZoneTech\\ZoneTech\\ZoneTech.csproj",
       "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\victo\\Documents\\GitHub\\ZoneTech\\ZoneTech\\obj\\",
+=======
+      "projectUniqueName": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\ZoneTech.csproj",
+      "projectName": "ZoneTech",
+      "projectPath": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\ZoneTech.csproj",
+      "packagesPath": "C:\\Users\\Miguel\\.nuget\\packages\\",
+      "outputPath": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\obj\\",
+>>>>>>> 90fc9815ecb98a98e57835117234336139b9df88
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+=======
+        "C:\\Users\\Miguel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+>>>>>>> 90fc9815ecb98a98e57835117234336139b9df88
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -8777,5 +8790,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

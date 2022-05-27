@@ -10,7 +10,7 @@ namespace ZoneTech.Business
             throw new NotImplementedException();
         }
 
-        public List<DetalleCompraML> GetAllDetalleVenta()
+        public List<DetalleVentaML> GetAllDetalleVenta()
         {
             throw new NotImplementedException();
         }
