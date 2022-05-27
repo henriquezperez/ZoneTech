@@ -6,7 +6,7 @@ namespace ZoneTech.Controllers
 {
     public class AdminController : Controller
     {
-         private ApplicationDBContext db;
+        private ApplicationDBContext db;
         private readonly ILogger<AdminController> _logger;
         public AdminController(ILogger<AdminController> logger, ApplicationDBContext _db){
             _logger = logger;
@@ -37,10 +37,15 @@ namespace ZoneTech.Controllers
             return View();
         }
         //UPDATE
-        public IActionResult EstadoEditar(EstadoML est){
+        public IActionResult EstadoEditar(int id){
+            var query = db.EstadoTBL.Where(x=>x.EstadoId.Equals(id)).FirstOrDefault(); //usar FirstOrDefault()
+            return View(query);
+        }
+
+        public IActionResult EstadoActualizar(EstadoML est){
             db.EstadoTBL.Update(est);
             db.SaveChanges();
-            return View();
+            return RedirectToAction("Estado");
         }
         //DELETE
         public IActionResult EstadoEliminar(int id){
