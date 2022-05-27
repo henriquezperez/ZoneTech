@@ -10,6 +10,10 @@ namespace ZoneTech.Models
         public int UsuarioId { get; set; }
 
         [Required]
+        [StringLength(25)]
+        public string Nombre { get; set; }
+
+        [Required]
         
         public int TipoClienteId { get; set; }
         [ForeignKey("TipoClienteId")]
