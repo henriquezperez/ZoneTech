@@ -1,0 +1,26 @@
+@{
+
+}
+
+<h2>Categorias</h2>
+
+<section>
+        <div class="row">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                @foreach (var item in ViewBag.listCategorias)
+                {
+                    <div class="col">
+                        <div class="card h-100 border-primary" style="max-width: 20rem">
+                            <img class="card-img-top" src="">"
+                            <div class="card-body">
+                                <h3 class="card-title">@item.Nombre</h3>
+                                <h5 class="card-title">Descripción</h5>
+                                <p class="card-text"></p>
+                                @Html.ActionLink("Ver","Producto",new{id=@item.CategoriaId},new{@class="btn btn-primary"})
+                            </div>
+                        </div>
+                    </div> 
+                }
+            </div>
+        </div>
+</section>

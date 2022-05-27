@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "jzW/66BkhUgLS8A2MzvsYWbu5zRCuJrNveuqKkcjvuk=",
+=======
+  "Hash": "hmPZ/t98p26iFR0eNHXFclguCWBnZCbZVBVXsOJMjVs=",
+>>>>>>> ab5b33bbc93606205e80eb2000595ceeda68f5a0
   "Source": "ZoneTech",
   "BasePath": "_content/ZoneTech",
   "Mode": "Default",
@@ -17,6 +21,7 @@
   ],
   "Assets": [
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
@@ -154,6 +159,9 @@
     },
     {
       "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
+=======
+      "Identity": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
+>>>>>>> ab5b33bbc93606205e80eb2000595ceeda68f5a0
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
@@ -561,7 +569,147 @@
       "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
+=======
+      "Identity": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
+      "SourceId": "ZoneTech",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
+      "BasePath": "_content/ZoneTech",
+      "RelativePath": "css/bootstrap.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css"
+    },
+    {
+      "Identity": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
+      "SourceId": "ZoneTech",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
+      "BasePath": "_content/ZoneTech",
+      "RelativePath": "css/bootstrap.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
+      "SourceId": "ZoneTech",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
+      "BasePath": "_content/ZoneTech",
+      "RelativePath": "css/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
+      "SourceId": "ZoneTech",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
+      "BasePath": "_content/ZoneTech",
+      "RelativePath": "css/bootstrap.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css",
+      "SourceId": "ZoneTech",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
+      "BasePath": "_content/ZoneTech",
+      "RelativePath": "css/bootstrap.rtl.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Identity": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map",
+      "SourceId": "ZoneTech",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
+      "BasePath": "_content/ZoneTech",
+      "RelativePath": "css/bootstrap.rtl.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "SourceId": "ZoneTech",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
+      "BasePath": "_content/ZoneTech",
+      "RelativePath": "css/bootstrap.rtl.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "ZoneTech",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
+      "BasePath": "_content/ZoneTech",
+      "RelativePath": "css/bootstrap.rtl.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
+>>>>>>> ab5b33bbc93606205e80eb2000595ceeda68f5a0
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
@@ -867,6 +1015,7 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
@@ -1004,6 +1153,9 @@
     },
     {
       "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+=======
+      "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+>>>>>>> ab5b33bbc93606205e80eb2000595ceeda68f5a0
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
@@ -1411,7 +1563,147 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+=======
+      "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "ZoneTech",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
+      "BasePath": "_content/ZoneTech",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "SourceId": "ZoneTech",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
+      "BasePath": "_content/ZoneTech",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "ZoneTech",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
+      "BasePath": "_content/ZoneTech",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "SourceId": "ZoneTech",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
+      "BasePath": "_content/ZoneTech",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "SourceId": "ZoneTech",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
+      "BasePath": "_content/ZoneTech",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "SourceId": "ZoneTech",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
+      "BasePath": "_content/ZoneTech",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "SourceId": "ZoneTech",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
+      "BasePath": "_content/ZoneTech",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "ZoneTech",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
+      "BasePath": "_content/ZoneTech",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+>>>>>>> ab5b33bbc93606205e80eb2000595ceeda68f5a0
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
@@ -1632,12 +1924,16 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+=======
+      "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+>>>>>>> ab5b33bbc93606205e80eb2000595ceeda68f5a0
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
       "BasePath": "_content/ZoneTech",
-      "RelativePath": "lib/jquery/dist/jquery.js",
+      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1646,15 +1942,19 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+=======
+      "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+>>>>>>> ab5b33bbc93606205e80eb2000595ceeda68f5a0
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
       "BasePath": "_content/ZoneTech",
-      "RelativePath": "lib/jquery/dist/jquery.min.js",
+      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1663,15 +1963,19 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+=======
+      "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+>>>>>>> ab5b33bbc93606205e80eb2000595ceeda68f5a0
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
       "BasePath": "_content/ZoneTech",
-      "RelativePath": "lib/jquery/dist/jquery.min.map",
+      "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1680,6 +1984,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
@@ -1698,6 +2003,9 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+=======
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+>>>>>>> ab5b33bbc93606205e80eb2000595ceeda68f5a0
     },
     {
       "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
@@ -1785,12 +2093,16 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+=======
+      "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+>>>>>>> ab5b33bbc93606205e80eb2000595ceeda68f5a0
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
       "BasePath": "_content/ZoneTech",
-      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1799,15 +2111,19 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+=======
+      "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+>>>>>>> ab5b33bbc93606205e80eb2000595ceeda68f5a0
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
       "BasePath": "_content/ZoneTech",
-      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1816,15 +2132,19 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+=======
+      "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+>>>>>>> ab5b33bbc93606205e80eb2000595ceeda68f5a0
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
       "BasePath": "_content/ZoneTech",
-      "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1833,7 +2153,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "SourceId": "ZoneTech",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
+      "BasePath": "_content/ZoneTech",
+      "RelativePath": "lib/jquery/LICENSE.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     }
   ]
 }
