@@ -18,7 +18,53 @@ namespace ZoneTech.Controllers
             return View();
         }
 
-        public IActionResult Articulos(){
+        /* Nathalie _____________________________________________________________________________*/
+        //Create
+        public IActionResult EstadoNuevo(){
+            return View();
+        }
+
+        public IActionResult InsertEstado(EstadoML est){
+            db.EstadoTBL.Add(est);
+            db.SaveChanges();
+            return RedirectToAction("Estado");
+        }
+        //Usar RedirectToAction para redireccionar
+        //READ
+        public IActionResult Estado(){
+            var lista = db.EstadoTBL.ToList();
+            ViewBag.listado = lista;
+            return View();
+        }
+        //UPDATE
+        public IActionResult EstadoEditar(EstadoML est){
+            db.EstadoTBL.Update(est);
+            db.SaveChanges();
+            return View();
+        }
+        //DELETE
+        public IActionResult EstadoEliminar(int id){
+            EstadoML est = new EstadoML();
+            est.EstadoId = id;
+            var query = db.EstadoTBL.Where(x=>x.EstadoId.Equals(id));
+            if(query != null){
+                db.EstadoTBL.Remove(est);
+                db.SaveChanges();
+            }
+            return RedirectToAction("Estado");
+        }
+
+        public IActionResult ControlAdmin(){
+            return View();
+        }
+
+        /*Victor _________________________________________________________________________________________*/
+
+
+
+        /*Miguel _________________________________________________________________________________________*/
+
+      public IActionResult Articulos(){
             var lista = db.ArticuloTBL.ToList();
             ViewBag.list = lista;
             return View();
@@ -58,44 +104,6 @@ namespace ZoneTech.Controllers
                                 Existencia = inv.Existencia
                         };
             ViewBag.query = list;
-            return View();
-        }
-        //Create
-        public IActionResult EstadoNuevo(){
-            return View();
-        }
-
-        public IActionResult InsertEstado(EstadoML est){
-            db.EstadoTBL.Add(est);
-            db.SaveChanges();
-            return RedirectToAction("Estado");
-        }
-        //Usar RedirectToAction para redireccionar
-        //READ
-        public IActionResult Estado(){
-            var lista = db.EstadoTBL.ToList();
-            ViewBag.listado = lista;
-            return View();
-        }
-        //UPDATE
-        public IActionResult EstadoEditar(EstadoML est){
-            db.EstadoTBL.Update(est);
-            db.SaveChanges();
-            return View();
-        }
-        //DELETE
-        public IActionResult EstadoEliminar(int id){
-            EstadoML est = new EstadoML();
-            est.EstadoId = id;
-            var query = db.EstadoTBL.Where(x=>x.EstadoId.Equals(id));
-            if(query != null){
-                db.EstadoTBL.Remove(est);
-                db.SaveChanges();
-            }
-            return RedirectToAction("Estado");
-        }
-
-        public IActionResult ControlAdmin(){
             return View();
         }
     }
