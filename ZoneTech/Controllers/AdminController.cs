@@ -262,7 +262,280 @@ namespace ZoneTech.Controllers
 
         /*Victor _________________________________________________________________________________________*/
 
+        #region Victor
 
+        #region Marca
+        public ActionResult Marca()
+        {
+            var estd = db.EstadoTBL.ToList();
+            ViewBag.estado = estd;
+            return View(estd);
+        }
+
+        // GET: MarcaController/Details/5
+        public ActionResult DetalleMarca(int id)
+        {
+            var query = db.MarcaTBL.Where(x => x.MarcaId.Equals(id)).FirstOrDefault();
+            return View(query);
+        }
+
+        // GET: MarcaController/Create
+        public ActionResult CrearMarca()
+        {
+            var estd = db.EstadoTBL.ToList();
+            ViewBag.estado = estd;
+            return View();
+        }
+
+        // POST: MarcaController/Create
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult CrearMarca(MarcaML pMarcaML)
+        {
+            try
+            {
+                db.MarcaTBL.Add(pMarcaML);
+                int result = db.SaveChanges();
+                return RedirectToAction("Marca");
+            }
+            catch
+            {
+                ViewBag.estado = db.EstadoTBL.ToList();
+                return View("CrearMarca");
+            }
+        }
+
+        // GET: MarcaController/Edit/5
+        public ActionResult EditarMarca(int id)
+        {
+            var query = db.MarcaTBL.Where(x => x.MarcaId.Equals(id)).FirstOrDefault();
+            return View(query);
+        }
+
+        // POST: MarcaController/Edit/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult EditarMarca(int id, MarcaML pMarcaML)
+        {
+            try
+            {
+                db.MarcaTBL.Update(pMarcaML);
+                int result = db.SaveChanges();
+                return RedirectToAction("Marca");
+            }
+            catch (Exception ex)
+            {
+                //ViewBag.Error = ex.Message;
+                ViewBag.estado = db.EstadoTBL.ToList();
+                return View("EditarMarca");
+            }
+        }
+
+        // GET: MarcaController/Delete/5
+        public ActionResult EliminarMarca(int id)
+        {
+            MarcaML marc = new MarcaML();
+            marc.MarcaId = id;
+            var query = db.MarcaTBL.Where(x => x.MarcaId.Equals(id));
+            if (query != null)
+            {
+                db.MarcaTBL.Remove(marc);
+                int result = db.SaveChanges();
+            }
+            return RedirectToAction("Marca");
+        }
+        //Fin Marca
+        #endregion
+
+        #region Categoria
+
+        public ActionResult Categoria()
+        {
+            var categ = db.CategoriaTBL.ToList();
+            ViewBag.categoria = categ;
+            return View(categ);
+        }
+
+        // GET: MarcaController/Details/5
+        public ActionResult DetalleCategoria(int id)
+        {
+            var query = db.CategoriaTBL.Where(x => x.CategoriaId.Equals(id)).FirstOrDefault();
+            return View(query);
+        }
+
+        // GET: MarcaController/Create
+        public ActionResult CrearCategoria()
+        {
+            var catg = db.CategoriaTBL.ToList();
+            ViewBag.categoria = catg;
+            return View();
+        }
+
+        // POST: MarcaController/Create
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult CrearCategoria(CategoriaML pCategoriaML)
+        {
+            try
+            {
+                db.CategoriaTBL.Add(pCategoriaML);
+                int result = db.SaveChanges();
+                return RedirectToAction("Categoria");
+            }
+            catch
+            {
+                ViewBag.categoria = db.CategoriaTBL.ToList();
+                return View("CrearCategoria");
+            }
+        }
+
+        // GET: MarcaController/Edit/5
+        public ActionResult EditarCategoria(int id)
+        {
+            var query = db.CategoriaTBL.Where(x => x.CategoriaId.Equals(id)).FirstOrDefault();
+            return View(query);
+        }
+
+        // POST: MarcaController/Edit/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult EditarCategoria(int id, CategoriaML pCategoriaML)
+        {
+            try
+            {
+                db.CategoriaTBL.Update(pCategoriaML);
+                int result = db.SaveChanges();
+                return RedirectToAction("Categoria");
+            }
+            catch (Exception ex)
+            {
+                //ViewBag.Error = ex.Message;
+                ViewBag.categoria = db.CategoriaTBL.ToList();
+                return View("EditarCategoria");
+            }
+        }
+
+        // GET: MarcaController/Delete/5
+        public ActionResult EliminarCategoria(int id)
+        {
+            CategoriaML catg = new CategoriaML();
+            catg.CategoriaId = id;
+            var query = db.CategoriaTBL.Where(x => x.CategoriaId.Equals(id));
+            if (query != null)
+            {
+                db.CategoriaTBL.Remove(catg);
+                int result = db.SaveChanges();
+            }
+            return RedirectToAction("Categoria");
+        }
+
+        #endregion
+
+        #region Modelo
+
+        public ActionResult Modelo()
+        {
+            var list = from mdl in db.ModeloTBL
+                       from mar in db.MarcaTBL
+                       from ctg in db.CategoriaTBL
+                       where mdl.MarcaId == mar.MarcaId
+                          && mdl.CategoriaId == ctg.CategoriaId
+                       select new
+                       {
+                           ID = mdl.ModeloId,
+                           Nombre = mdl.Nombre,
+                           MarcId = mdl.MarcaId,
+                           CtgId = mdl.CategoriaId,
+                           Marca = mar.Nombre,
+                           Categor = ctg.Nombre
+
+                       };
+            ViewBag.query = list;
+            var marc = db.MarcaTBL.ToList();
+            ViewBag.marca = marc;
+            var modl = db.ModeloTBL.ToList();
+            ViewBag.modelo = modl;
+            return View();
+        }
+
+        // GET: MarcaController/Details/5
+        public ActionResult DetalleModelo(int id)
+        {
+            var query = db.ModeloTBL.Where(x => x.ModeloId.Equals(id)).FirstOrDefault();
+            return View(query);
+        }
+
+        // GET: MarcaController/Create
+        public ActionResult CrearModelo()
+        {
+            var marc = db.MarcaTBL.ToList();
+            ViewBag.marca = marc;
+            var modl = db.ModeloTBL.ToList();
+            ViewBag.modelo = modl;
+            return View();
+        }
+
+        // POST: MarcaController/Create
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult CrearModelo(ModeloML pModeloML)
+        {
+            try
+            {
+                db.ModeloTBL.Add(pModeloML);
+                int result = db.SaveChanges();
+                return RedirectToAction("Modelo");
+            }
+            catch
+            {
+                ViewBag.categoria = db.CategoriaTBL.ToList();
+                return View("CrearModelo");
+            }
+        }
+
+        // GET: MarcaController/Edit/5
+        public ActionResult EditarModelo(int id)
+        {
+            var query = db.ModeloTBL.Where(x => x.ModeloId.Equals(id)).FirstOrDefault();
+            return View(query);
+        }
+
+        // POST: MarcaController/Edit/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult EditarModelo(int id, ModeloML pModeloML)
+        {
+            try
+            {
+                db.ModeloTBL.Update(pModeloML);
+                int result = db.SaveChanges();
+                return RedirectToAction("Modelo");
+            }
+            catch (Exception ex)
+            {
+                //ViewBag.Error = ex.Message;
+                ViewBag.categoria = db.CategoriaTBL.ToList();
+                return View("EditarModelo");
+            }
+        }
+
+        // GET: MarcaController/Delete/5
+        public ActionResult EliminarModelo(int id)
+        {
+            ModeloML modl = new ModeloML();
+            modl.ModeloId = id;
+            var query = db.ModeloTBL.Where(x => x.ModeloId.Equals(id));
+            if (query != null)
+            {
+                db.ModeloTBL.Remove(modl);
+                int result = db.SaveChanges();
+            }
+            return RedirectToAction("Modelo");
+        }
+
+        #endregion
+
+        #endregion
 
         /*Miguel _________________________________________________________________________________________*/
 
