@@ -1,0 +1,35 @@
+@model ZoneTech.Models.TipoClienteML
+@{
+    
+}
+<a class="btn btn-success" asp-controller="Admin" asp-action="TiposClienteNuevo">Agregar</a>
+
+<h1>Lista de Tipos de clientes</h1>
+<table class="table table-dark table-striped" id="tablelist">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Nombre</th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach (var item in ViewBag.listCategoria)
+    {
+      <tr>
+        <td>@item.ID</td>
+        <td>@item.Nombre</td>
+      </tr>
+    }
+  </tbody>
+</table>
+
+@section scripts{
+    <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        //alert("Read load");
+        var tabla = $('#tablelist').DataTable();
+      });
+    </script>
+}

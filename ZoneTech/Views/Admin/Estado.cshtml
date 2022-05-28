@@ -2,7 +2,7 @@
 @{
     
 }
-<h1>Lista de Articulos</h1>
+<h1>Configuración de Estados</h1>
 <a class="btn btn-success" asp-controller="Admin" asp-action="EstadoNuevo">Agregar</a>
 <table class="table table-dark table-striped" id="tablelist">
   <thead>
@@ -23,7 +23,7 @@
         <td>
           <td>
             @Html.ActionLink("Eliminar","EstadoEliminar",new{id=@item.EstadoId},new{@class="btn btn-danger"})
-            @Html.ActionLink("Editar","Editar",new{id=@item.EstadoId},new{@class="btn btn-warning"})
+            @Html.ActionLink("Editar","EstadoEditar",new{id=@item.EstadoId},new{@class="btn btn-warning"})
           </td>
         </td>
       </tr>

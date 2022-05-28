@@ -9,6 +9,7 @@ namespace ZoneTech.Controllers
     public class HomeController : Controller
     {
         List<VentaPreview> _ventaList;
+        List<CarritoPreview> _carritoList;
         static int articuloId;
         string nombreArt;
         int cant;
@@ -32,10 +33,43 @@ namespace ZoneTech.Controllers
 
         public IActionResult Carrito(){
         
-            ViewBag.list = _ventaList;
+            ViewBag.list = _carritoList;
             return View();
         }
 
+        public IActionResult Agregar(int id){
+            
+           //ArticuloML art = new ArticuloML();
+           //var art = db.ArticuloTBL.Where(x=>x.ArticuloId.Equals(id));
+            CarritoPreview car =  new CarritoPreview(){
+                CarritoId = id,
+                UsuarioId = 0,
+                ArticuloId = id,
+                Cantidad = 1,
+                SubTotal = 0.35M,
+            };
+
+            var query = _carritoList.FirstOrDefault(x => x.ArticuloId.Equals(id));
+
+            if (query != null)
+            {
+                for (int i = 0; i < _carritoList.Count; i++)
+                {
+                    if (_carritoList[i].ArticuloId == car.ArticuloId)
+                    {
+                        _carritoList[i].Cantidad += car.Cantidad;
+                        _carritoList[i].SubTotal += car.SubTotal;
+                    }
+                }
+            }
+            else
+            {
+                _carritoList.Add(car);
+            }
+
+            return RedirectToAction("Carrito");
+        }
+        /*
         private void AgregarDetalleVenta(int id){
           var qry = db.ArticuloTBL.FirstOrDefault(x => x.ArticuloId.Equals(articuloId));
 
@@ -69,7 +103,7 @@ namespace ZoneTech.Controllers
                 _ventaList.Add(venta);
             }
            Carrito();
-        }
+        }*/
 
         public IActionResult Catalogo(){
             var list = db.CategoriaTBL.ToList();
@@ -83,16 +117,16 @@ namespace ZoneTech.Controllers
             return View();
         }
 
-        public IActionResult Agregar(int id){
-           /* articuloId = v.ArticuloId;
+       /*public IActionResult Agregar(int id){
+           articuloId = v.ArticuloId;
             nombreArt = v.Nombre;
             precio = v.Precio;
-            cant = Contador++; */
-            var query = db.ArticuloTBL.Where(x=>x.CategoriaId == id).ToList();
+            cant = Contador++;
+           // var query = db.ArticuloTBL.Where(x=>x.CategoriaId == id).ToList();
             
-            AgregarDetalleVenta(id);
-            return View();
-        }
+           // AgregarDetalleVenta(id);
+           // return View();
+       } */
         
     }
 
@@ -103,5 +137,16 @@ namespace ZoneTech.Controllers
         public decimal Precio { get; set; }
         public int Cantidad { get; set; }
         public decimal SubTotal { get; set; }
+    }
+
+    public class CarritoPreview{
+        public int CarritoId { get; set; }
+        public int UsuarioId { get; set; }
+        public int ArticuloId { get; set; }
+
+        public int Cantidad  { get; set; }
+
+        public decimal SubTotal  { get; set; }
+
     }
 }
