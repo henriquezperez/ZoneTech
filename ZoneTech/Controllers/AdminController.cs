@@ -62,6 +62,203 @@ namespace ZoneTech.Controllers
         public IActionResult ControlAdmin(){
             return View();
         }
+        //
+
+        public IActionResult TipoClienteNuevo()
+        {
+            return View();
+        }
+
+        public IActionResult InsertTipoCliente(TipoClienteML est)
+        {
+            db.TipoClienteTBL.Add(est);
+            db.SaveChanges();
+            return RedirectToAction("TipoCliente");
+        }
+        
+         //READ
+        public IActionResult TipoCliente(){
+            var lista = db.TipoClienteTBL.ToList();
+            ViewBag.listado = lista;
+            return View();
+        }
+        //UPDATE
+        public IActionResult TipoClienteEditar(int id){
+            var query = db.TipoClienteTBL.Where(x=>x.TipoClienteId.Equals(id)).FirstOrDefault(); //usar FirstOrDefault()
+            return View(query);
+        }
+
+        public IActionResult TipoClienteActualizar(TipoClienteML est){
+            db.TipoClienteTBL.Update(est);
+            db.SaveChanges();
+            return RedirectToAction("TipoCliente");
+        }
+        //DELETE
+        public IActionResult TipoClienteEliminar(int id){
+            TipoClienteML est = new TipoClienteML();
+            est.TipoClienteId = id;
+            var query = db.TipoClienteTBL.Where(x=>x.TipoClienteId.Equals(id));
+            if(query != null){
+                db.TipoClienteTBL.Remove(est);
+                db.SaveChanges();
+            }
+            return RedirectToAction("TipoCliente");
+        }
+
+        //
+
+        public IActionResult TipoUsuarionuevo()
+        {
+            var list = db.EstadoTBL.ToList();
+
+            ViewBag.listEstado = list;
+
+            return View();
+        }
+
+        public IActionResult InsertTipoUsuario(TipoUsuarioML est)
+        {
+            db.TipoUsuarioTBL.Add(est);
+            db.SaveChanges();
+            return RedirectToAction("TipoUsuario");
+        }
+
+        //READ
+        public IActionResult TipoUsuario()
+        {
+            var lista = db.TipoUsuarioTBL.ToList();
+            ViewBag.listado = lista;
+            return View();
+        }
+        //UPDATE
+        public IActionResult TipoUsuarioEditar(int id)
+        {
+            var query = db.TipoUsuarioTBL.Where(x => x.TipoUsuarioId.Equals(id)).FirstOrDefault(); //usar FirstOrDefault()
+            return View(query);
+        }
+
+        public IActionResult TipoUsuarioActualizar(TipoUsuarioML est)
+        {
+            db.TipoUsuarioTBL.Update(est);
+            db.SaveChanges();
+            return RedirectToAction("TipoUsuario");
+        }
+        //DELETE
+        public IActionResult TipoUsuarioEliminar(int id)
+        {
+            TipoUsuarioML est = new TipoUsuarioML();
+            est.TipoUsuarioId = id;
+            var query = db.TipoUsuarioTBL.Where(x => x.TipoUsuarioId.Equals(id));
+            if (query != null)
+            {
+                db.TipoUsuarioTBL.Remove(est);
+                db.SaveChanges();
+            }
+            return RedirectToAction("TipoUsuario");
+        }
+
+        //
+
+        public IActionResult Usuarionuevo()
+        {
+            var list = db.TipoUsuarioTBL.ToList();
+
+            ViewBag.listTipoUsuario = list;
+
+            return View();
+        }
+
+
+        public IActionResult InsertUsuario(UsuarioML est)
+        {
+            db.UsuarioTBL.Add(est);
+            db.SaveChanges();
+            return RedirectToAction("Usuario");
+        }
+
+        //READ
+        public IActionResult Usuario()
+        {
+            var lista = db.UsuarioTBL.ToList();
+            ViewBag.listado = lista;
+            return View();
+        }
+        //UPDATE
+        public IActionResult UsuarioEditar(int id)
+        {
+            var query = db.UsuarioTBL.Where(x => x.UsuarioId.Equals(id)).FirstOrDefault(); //usar FirstOrDefault()
+            return View(query);
+        }
+
+        public IActionResult UsuarioActualizar(UsuarioML est)
+        {
+            db.UsuarioTBL.Update(est);
+            db.SaveChanges();
+            return RedirectToAction("Usuario");
+        }
+        //DELETE
+        public IActionResult UsuarioEliminar(int id)
+        {
+            UsuarioML est = new UsuarioML();
+            est.UsuarioId = id;
+            var query = db.UsuarioTBL.Where(x => x.UsuarioId.Equals(id));
+            if (query != null)
+            {
+                db.UsuarioTBL.Remove(est);
+                db.SaveChanges();
+            }
+            return RedirectToAction("Usuario");
+        }
+
+
+       
+        //
+
+        public IActionResult DepartamentoNuevo()
+        {
+            return View();
+        }
+
+        public IActionResult InsertDepartamento(DepartamentoML est)
+        {
+            db.DepartamentoTBL.Add(est);
+            db.SaveChanges();
+            return RedirectToAction("Departamento");
+        }
+
+        //READ
+        public IActionResult Departamento()
+        {
+            var lista = db.DepartamentoTBL.ToList();
+            ViewBag.listado = lista;
+            return View();
+        }
+        //UPDATE
+        public IActionResult DepartamentoEditar(int id)
+        {
+            var query = db.DepartamentoTBL.Where(x => x.DepartamentoId.Equals(id)).FirstOrDefault(); //usar FirstOrDefault()
+            return View(query);
+        }
+
+        public IActionResult DepartamentoActualizar(DepartamentoML est)
+        {
+            db.DepartamentoTBL.Update(est);
+            db.SaveChanges();
+            return RedirectToAction("Departaemento");
+        }
+        //DELETE
+        public IActionResult DepartamentoEliminar(int id)
+        {
+            DepartamentoML est = new DepartamentoML();
+            est.DepartamentoId = id;
+            var query = db.DepartamentoTBL.Where(x => x.DepartamentoId.Equals(id));
+            if (query != null)
+            {
+                db.DepartamentoTBL.Remove(est);
+                db.SaveChanges();
+            }
+            return RedirectToAction("Departamento");
+        }
 
         /*Victor _________________________________________________________________________________________*/
 
@@ -69,7 +266,7 @@ namespace ZoneTech.Controllers
 
         /*Miguel _________________________________________________________________________________________*/
 
-      public IActionResult Articulos(){
+        public IActionResult Articulos(){
             var lista = db.ArticuloTBL.ToList();
             ViewBag.list = lista;
             return View();
