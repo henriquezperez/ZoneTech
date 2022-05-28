@@ -10,6 +10,8 @@ namespace ZoneTech.Controllers
     {
         List<VentaPreview> _ventaList;
         List<CarritoPreview> _carritoList;
+
+        List<ArticuloML> _listArticulo;
         static int articuloId;
         string nombreArt;
         int cant;
@@ -33,42 +35,18 @@ namespace ZoneTech.Controllers
 
         public IActionResult Carrito(){
         
-            ViewBag.list = _carritoList;
+            //ViewBag.list = _carritoList;
+            ViewBag.list = _listArticulo;
             return View();
         }
 
         public IActionResult Agregar(int id){
             
-           //ArticuloML art = new ArticuloML();
-           //var art = db.ArticuloTBL.Where(x=>x.ArticuloId.Equals(id));
-            CarritoPreview car =  new CarritoPreview(){
-                CarritoId = id,
-                UsuarioId = 0,
-                ArticuloId = id,
-                Cantidad = 1,
-                SubTotal = 0.35M,
-            };
-
-            var query = _carritoList.FirstOrDefault(x => x.ArticuloId.Equals(id));
-
-            if (query != null)
-            {
-                for (int i = 0; i < _carritoList.Count; i++)
-                {
-                    if (_carritoList[i].ArticuloId == car.ArticuloId)
-                    {
-                        _carritoList[i].Cantidad += car.Cantidad;
-                        _carritoList[i].SubTotal += car.SubTotal;
-                    }
-                }
-            }
-            else
-            {
-                _carritoList.Add(car);
-            }
+            var query = _listArticulo.Where(x => x.ArticuloId.Equals(id)).FirstOrDefault();
 
             return RedirectToAction("Carrito");
         }
+        
         /*
         private void AgregarDetalleVenta(int id){
           var qry = db.ArticuloTBL.FirstOrDefault(x => x.ArticuloId.Equals(articuloId));
@@ -114,7 +92,12 @@ namespace ZoneTech.Controllers
         public IActionResult Producto(int id){
             var query = db.ArticuloTBL.Where(x=>x.CategoriaId == id).ToList();
             ViewBag.list = query;
-            return View();
+            if(query != null){
+                return View();
+            }else{
+                return RedirectToAction("PageNotFound");
+            }
+            
         }
 
        /*public IActionResult Agregar(int id){
@@ -128,6 +111,10 @@ namespace ZoneTech.Controllers
            // return View();
        } */
         
+
+        public IActionResult PageNotFound(){
+            return View();
+        }
     }
 
 

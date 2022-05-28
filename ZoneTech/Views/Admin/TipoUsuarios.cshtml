@@ -1,35 +1,28 @@
 @{
 
 }
-<h1>Lista de Articulos</h1>
+@model ZoneTech.Models.TipoClienteML
+@{
+    
+}
+<a class="btn btn-success" asp-controller="Admin" asp-action="TiposClienteNuevo">Agregar</a>
+
+<h1>Lista de Tipos de usuarios</h1>
 <table class="table table-dark table-striped" id="tablelist">
   <thead>
     <tr>
       <th scope="col">ID</th>
       <th scope="col">Nombre</th>
-      <th scope="col">Precio</th>
-      <th scope="col">Cantidad</th>
-      <th scope="col">SubTotal</th>
-      <th>
-        <th scope="col">Opciones</th>
-      </th>
+      <th scope="col">Estado Id</th>
     </tr>
   </thead>
   <tbody>
     @foreach (var item in ViewBag.list)
     {
       <tr>
-        <td>@item.ArticuloId</td>
+        <td>@item.ID</td>
         <td>@item.Nombre</td>
-        <td>@item.Precio</td>
-        
-        <td>@item.SubTotal</td>
-        <td>
-          <td>
-            @Html.ActionLink("Admin","DeleteArticulo",new{id=@item.ArticuloId},new{@class="btn btn-danger"})
-            @Html.ActionLink("Load","Load",new{id=@item.ArticuloId},new{@class="btn btn-warning"})
-          </td>
-        </td>
+        <td>@item.Estado</td>
       </tr>
     }
   </tbody>

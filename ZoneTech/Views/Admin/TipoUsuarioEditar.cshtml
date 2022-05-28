@@ -1,3 +1,4 @@
+
 @model ZoneTech.Models.TipoClienteML
 @{}
 <h3>Actualizar</h3>
@@ -9,6 +10,15 @@
     <div>
        <label for="">Nombre</label>
         <input type="text" asp-for="Nombre"/>      
+    </div>
+      <div class="mb-3">
+        <label for="" class="form-label">Estado</label>
+        <select class="form-select" aria-label="Default select example" name="areaid">
+            @foreach(var item in ViewBag.listModelo)
+            {
+              <option value="@item.ModeloId">@item.Nombre</option>
+            }
+        </select>   
     </div>
     <button type="submit" >Guardar</button>
 </form>
