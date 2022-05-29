@@ -269,7 +269,7 @@ namespace ZoneTech.Controllers
         {
             var estd = db.EstadoTBL.ToList();
             ViewBag.estado = estd;
-            return View(estd);
+            return View();
         }
 
         // GET: MarcaController/Details/5
@@ -309,6 +309,8 @@ namespace ZoneTech.Controllers
         public ActionResult EditarMarca(int id)
         {
             var query = db.MarcaTBL.Where(x => x.MarcaId.Equals(id)).FirstOrDefault();
+            var estd = db.EstadoTBL.ToList();
+            ViewBag.estado = estd;
             return View(query);
         }
 
@@ -351,9 +353,9 @@ namespace ZoneTech.Controllers
 
         public ActionResult Categoria()
         {
-            var categ = db.CategoriaTBL.ToList();
-            ViewBag.categoria = categ;
-            return View(categ);
+            var estad = db.EstadoTBL.ToList();
+            ViewBag.estado = estad;
+            return View();
         }
 
         // GET: MarcaController/Details/5
@@ -366,8 +368,8 @@ namespace ZoneTech.Controllers
         // GET: MarcaController/Create
         public ActionResult CrearCategoria()
         {
-            var catg = db.CategoriaTBL.ToList();
-            ViewBag.categoria = catg;
+            var est = db.EstadoTBL.ToList();
+            ViewBag.estado = est;
             return View();
         }
 
@@ -384,7 +386,7 @@ namespace ZoneTech.Controllers
             }
             catch
             {
-                ViewBag.categoria = db.CategoriaTBL.ToList();
+                ViewBag.estado = db.EstadoTBL.ToList();
                 return View("CrearCategoria");
             }
         }
@@ -393,6 +395,8 @@ namespace ZoneTech.Controllers
         public ActionResult EditarCategoria(int id)
         {
             var query = db.CategoriaTBL.Where(x => x.CategoriaId.Equals(id)).FirstOrDefault();
+            var est = db.EstadoTBL.ToList();
+            ViewBag.estado = est;
             return View(query);
         }
 
@@ -410,7 +414,7 @@ namespace ZoneTech.Controllers
             catch (Exception ex)
             {
                 //ViewBag.Error = ex.Message;
-                ViewBag.categoria = db.CategoriaTBL.ToList();
+                ViewBag.estado = db.EstadoTBL.ToList();
                 return View("EditarCategoria");
             }
         }
@@ -437,9 +441,9 @@ namespace ZoneTech.Controllers
         {
             var list = from mdl in db.ModeloTBL
                        from mar in db.MarcaTBL
-                       from ctg in db.CategoriaTBL
+                       from ctgc in db.CategoriaTBL
                        where mdl.MarcaId == mar.MarcaId
-                          && mdl.CategoriaId == ctg.CategoriaId
+                          && mdl.CategoriaId == ctgc.CategoriaId
                        select new
                        {
                            ID = mdl.ModeloId,
@@ -447,14 +451,14 @@ namespace ZoneTech.Controllers
                            MarcId = mdl.MarcaId,
                            CtgId = mdl.CategoriaId,
                            Marca = mar.Nombre,
-                           Categor = ctg.Nombre
+                           Categor = ctgc.Nombre
 
                        };
             ViewBag.query = list;
             var marc = db.MarcaTBL.ToList();
             ViewBag.marca = marc;
-            var modl = db.ModeloTBL.ToList();
-            ViewBag.modelo = modl;
+            var ctg = db.CategoriaTBL.ToList();
+            ViewBag.categoria = ctg;
             return View();
         }
 
@@ -470,8 +474,8 @@ namespace ZoneTech.Controllers
         {
             var marc = db.MarcaTBL.ToList();
             ViewBag.marca = marc;
-            var modl = db.ModeloTBL.ToList();
-            ViewBag.modelo = modl;
+            var ctg = db.CategoriaTBL.ToList();
+            ViewBag.categoria = ctg;
             return View();
         }
 
@@ -488,6 +492,7 @@ namespace ZoneTech.Controllers
             }
             catch
             {
+                ViewBag.marca = db.MarcaTBL.ToList();
                 ViewBag.categoria = db.CategoriaTBL.ToList();
                 return View("CrearModelo");
             }
@@ -496,6 +501,10 @@ namespace ZoneTech.Controllers
         // GET: MarcaController/Edit/5
         public ActionResult EditarModelo(int id)
         {
+            var marc = db.MarcaTBL.ToList();
+            ViewBag.marca = marc;
+            var ctg = db.CategoriaTBL.ToList();
+            ViewBag.categoria = ctg;
             var query = db.ModeloTBL.Where(x => x.ModeloId.Equals(id)).FirstOrDefault();
             return View(query);
         }
@@ -514,6 +523,7 @@ namespace ZoneTech.Controllers
             catch (Exception ex)
             {
                 //ViewBag.Error = ex.Message;
+                ViewBag.marca = db.MarcaTBL.ToList();
                 ViewBag.categoria = db.CategoriaTBL.ToList();
                 return View("EditarModelo");
             }
@@ -534,6 +544,228 @@ namespace ZoneTech.Controllers
         }
 
         #endregion
+
+        #region Municipio
+
+        public ActionResult Municipio()
+        {
+            var list = from mn in db.MunicipioTBL
+                       from dep in db.DepartamentoTBL
+                       where mn.DepartamentoId == dep.DepartamentoId
+                       select new
+                       {
+                           ID = mn.MunicipioId,
+                           Nombre = mn.Nombre,
+                           DepartID = mn.DepartamentoId,
+                           NombreDep = dep.Nombre
+
+                       };
+            ViewBag.query = list;
+            var depart = db.DepartamentoTBL.ToList();
+            ViewBag.departamento = depart;
+            return View();
+        }
+
+        // GET: MarcaController/Details/5
+        public ActionResult DetalleMunicipio(int id)
+        {
+            var query = db.MunicipioTBL.Where(x => x.MunicipioId.Equals(id)).FirstOrDefault();
+            return View(query);
+        }
+
+        // GET: MarcaController/Create
+        public ActionResult CrearMunicipio()
+        {
+            var depart = db.DepartamentoTBL.ToList();
+            ViewBag.departamento = depart;
+            return View();
+        }
+
+        // POST: MarcaController/Create
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult CrearMunicipio(MunicipioML pMunicipioML)
+        {
+            try
+            {
+                db.MunicipioTBL.Add(pMunicipioML);
+                int result = db.SaveChanges();
+                return RedirectToAction("Municipio");
+            }
+            catch
+            {
+                ViewBag.departamento = db.DepartamentoTBL.ToList();
+                return View("CrearModelo");
+            }
+        }
+
+        // GET: MarcaController/Edit/5
+        public ActionResult EditarMunicipio(int id)
+        {
+            var query = db.MunicipioTBL.Where(x => x.MunicipioId.Equals(id)).FirstOrDefault();
+            var depart = db.DepartamentoTBL.ToList();
+            ViewBag.departamento = depart;
+            return View(query);
+        }
+
+        // POST: MarcaController/Edit/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult EditarMunicipio(int id, MunicipioML pMunicipioML)
+        {
+            try
+            {
+                db.MunicipioTBL.Update(pMunicipioML);
+                int result = db.SaveChanges();
+                return RedirectToAction("Municipio");
+            }
+            catch (Exception ex)
+            {
+                //ViewBag.Error = ex.Message;
+                ViewBag.departamento = db.DepartamentoTBL.ToList();
+                return View("EditarMunicipio");
+            }
+        }
+
+        // GET: MarcaController/Delete/5
+        public ActionResult EliminarMunicipio(int id)
+        {
+            MunicipioML mun = new MunicipioML();
+            mun.MunicipioId = id;
+            var query = db.MunicipioTBL.Where(x => x.MunicipioId.Equals(id));
+            if (query != null)
+            {
+                db.MunicipioTBL.Remove(mun);
+                int result = db.SaveChanges();
+            }
+            return RedirectToAction("Municipio");
+        }
+
+        #endregion
+
+        #region Cliente
+
+        public ActionResult Cliente()
+        {
+            var list = from cl in db.ClienteTBL
+                       from tpclc in db.TipoClienteTBL
+                       from munic in db.MunicipioTBL
+                       from userc in db.UsuarioTBL
+                       where cl.TipoClienteId == tpclc.TipoClienteId
+                          && cl.MunicipioId == munic.MunicipioId
+                          && cl.UsuarioId == userc.UsuarioId
+                       select new
+                       {
+                           ID = cl.ClienteId,
+                           Nombre = cl.Nombres,
+                           Apellidos = cl.Apellidos,
+                           DUI = cl.DUI,
+                           TipoCLId = cl.TipoClienteId,
+                           TipoCL = tpclc.Nombre,
+                           Resid = cl.Residencia,
+                           MuniId = cl.MunicipioId,
+                           NombMunicip = munic.Nombre,
+                           UseId = cl.UsuarioId,
+                           NombreUse = userc.Nombre
+
+                       };
+            ViewBag.query = list;
+            var tpcl = db.TipoClienteTBL.ToList();
+            ViewBag.tipocliente = tpcl;
+            var muni = db.MunicipioTBL.ToList();
+            ViewBag.municipios = muni;
+            var users = db.UsuarioTBL.ToList();
+            ViewBag.usua = users;
+            return View();
+        }
+
+        // GET: MarcaController/Details/5
+        public ActionResult DetalleCliente(int id)
+        {
+            var query = db.ClienteTBL.Where(x => x.ClienteId.Equals(id)).FirstOrDefault();
+            return View(query);
+        }
+
+        // GET: MarcaController/Create
+        public ActionResult CrearCliente()
+        {
+            var tpcl = db.TipoClienteTBL.ToList();
+            ViewBag.tipocliente = tpcl;
+            var muni = db.MunicipioTBL.ToList();
+            ViewBag.municipios = muni;
+            var users = db.UsuarioTBL.ToList();
+            ViewBag.usua = users;
+            return View();
+        }
+
+        // POST: MarcaController/Create
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult CrearCliente(ClienteML pClienteML)
+        {
+            try
+            {
+                db.ClienteTBL.Add(pClienteML);
+                int result = db.SaveChanges();
+                return RedirectToAction("Cliente");
+            }
+            catch
+            {
+                ViewBag.tipocliente = db.CategoriaTBL.ToList();
+                ViewBag.municipios = db.MunicipioTBL.ToList();
+                ViewBag.usua = db.UsuarioTBL.ToList();
+                return View("CrearCliente");
+            }
+        }
+
+        // GET: MarcaController/Edit/5
+        public ActionResult EditarCliente(int id)
+        {
+            var query = db.ClienteTBL.Where(x => x.ClienteId.Equals(id)).FirstOrDefault();
+            var tpcl = db.TipoClienteTBL.ToList();
+            ViewBag.tipocliente = tpcl;
+            var muni = db.MunicipioTBL.ToList();
+            ViewBag.municipios = muni;
+            var users = db.UsuarioTBL.ToList();
+            ViewBag.usua = users;
+            return View(query);
+        }
+
+        // POST: MarcaController/Edit/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult EditarCliente(int id, ClienteML pClienteML)
+        {
+            try
+            {
+                db.ClienteTBL.Update(pClienteML);
+                int result = db.SaveChanges();
+                return RedirectToAction("Cliente");
+            }
+            catch (Exception ex)
+            {
+                //ViewBag.Error = ex.Message;
+                ViewBag.categoria = db.CategoriaTBL.ToList();
+                return View("EditarCliente");
+            }
+        }
+
+        // GET: MarcaController/Delete/5
+        public ActionResult EliminarCliente(int id)
+        {
+            ClienteML cln = new ClienteML();
+            cln.ClienteId = id;
+            var query = db.ClienteTBL.Where(x => x.ClienteId.Equals(id));
+            if (query != null)
+            {
+                db.ClienteTBL.Remove(cln);
+                int result = db.SaveChanges();
+            }
+            return RedirectToAction("Cliente");
+        }
+
+        #endregion
+
 
         #endregion
 
