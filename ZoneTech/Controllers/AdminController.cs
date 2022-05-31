@@ -267,8 +267,8 @@ namespace ZoneTech.Controllers
         #region Marca
         public ActionResult Marca()
         {
-            var estd = db.EstadoTBL.ToList();
-            ViewBag.estado = estd;
+            var list = db.MarcaTBL.ToList();
+            ViewBag.listado = list;
             return View();
         }
 
@@ -282,8 +282,8 @@ namespace ZoneTech.Controllers
         // GET: MarcaController/Create
         public ActionResult CrearMarca()
         {
-            var estd = db.EstadoTBL.ToList();
-            ViewBag.estado = estd;
+            var list = db.MarcaTBL.ToList();
+            ViewBag.listado = list;
             return View();
         }
 
@@ -300,7 +300,7 @@ namespace ZoneTech.Controllers
             }
             catch
             {
-                ViewBag.estado = db.EstadoTBL.ToList();
+                ViewBag.listado = db.MarcaTBL.ToList();
                 return View("CrearMarca");
             }
         }
@@ -309,8 +309,8 @@ namespace ZoneTech.Controllers
         public ActionResult EditarMarca(int id)
         {
             var query = db.MarcaTBL.Where(x => x.MarcaId.Equals(id)).FirstOrDefault();
-            var estd = db.EstadoTBL.ToList();
-            ViewBag.estado = estd;
+            var list = db.EstadoTBL.ToList();
+            ViewBag.estado = list;
             return View(query);
         }
 
@@ -328,7 +328,7 @@ namespace ZoneTech.Controllers
             catch (Exception ex)
             {
                 //ViewBag.Error = ex.Message;
-                ViewBag.estado = db.EstadoTBL.ToList();
+                ViewBag.listado = db.MarcaTBL.ToList();
                 return View("EditarMarca");
             }
         }
