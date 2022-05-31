@@ -1,0 +1,16 @@
+﻿@model ZoneTech.Models.TipoUsuarioML
+@{
+
+}
+<form asp-controller="Admin" asp-action="TipoUsuarioActualizar">
+   
+    <div>
+        <label for="">EstadoId</label>
+        <input type="text" asp-for="EstadoId"/>
+    </div>
+    <div>
+       <label for="">Nombre</label>
+        <input type="text" asp-for="Nombre"/>      
+    </div>
+    <button type="submit" >Guardar</button>
+</form>
