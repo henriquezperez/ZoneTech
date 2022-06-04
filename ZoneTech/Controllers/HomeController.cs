@@ -10,8 +10,8 @@ namespace ZoneTech.Controllers
     {
         List<VentaPreview> _ventaList;
         List<CarritoPreview> _carritoList;
-
         List<ArticuloML> _listArticulo;
+        
         static int articuloId;
         string nombreArt;
         int cant;
@@ -42,8 +42,11 @@ namespace ZoneTech.Controllers
 
         public IActionResult Agregar(int id){
             
-            var query = _listArticulo.Where(x => x.ArticuloId.Equals(id)).FirstOrDefault();
-
+            var query = db.ArticuloTBL.Where(x => x.ArticuloId.Equals(id)).FirstOrDefault();
+            if(query != null){
+               // var ws = _listArticulo.Where(x => x.ArticuloId.Equals(id)).FirstOrDefault();
+                _listArticulo.Add(query);
+            }
             return RedirectToAction("Carrito");
         }
         
