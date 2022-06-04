@@ -1,0 +1,67 @@
+﻿@model ZoneTech.Models.ModeloML
+@{
+    
+}
+
+<ol class="breadcrumb mb-4 mt-4">
+    <li class="breadcrumb-item"><a href="#">Resumen</a></li>
+    <li class="breadcrumb-item active">Modelo</li>
+</ol>
+<div class="card mb-4">
+    <div class="card-header">
+        <i class="fas fa-table me-1"></i> Modelo
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-sm-12">
+                <a class="btn btn-success" asp-controller="Admin" asp-action="CrearModelo">Agregar</a>
+            </div>
+        </div>
+
+        <hr />
+        <table id="tablelist" class="display responsive" style="width:100%">
+            <thead>
+                <tr>
+                       <th scope="col">Modelo Id</th>
+                        <th scope="col">Nombre</th>
+                       <th scope="col">Marca Id</th>
+                       <th scope="col">Categoria Id</th>
+                        <th>
+                             <th scope="col">Opciones</th>
+                        </th>
+               </tr>
+            </thead>
+      
+            <tbody>
+               
+                @foreach (var item in ViewBag.listado)
+                {
+                  
+                <tr>
+                    <td>@item.ModeloId</td>
+                     <td>@item.Nombre</td>
+                    <td>@item.MarcaId</td>
+                    <td>@item.CategoriaId</td>
+                <td>
+                <td>
+                      @Html.ActionLink("Eliminar","EliminarModelo",new{id=@item.ModeloId},new{@class="btn btn-danger"})
+                      @Html.ActionLink("Editar","EditarModelo",new{id=@item.ModeloId},new{@class="btn btn-warning"})
+          </td>
+        </td>
+      </tr>
+    }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+@section scripts{
+    <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        //alert("Read load");
+        var tabla = $('#tablelist').DataTable();
+      });
+    </script>
+}

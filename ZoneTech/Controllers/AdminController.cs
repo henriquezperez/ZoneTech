@@ -244,7 +244,7 @@ namespace ZoneTech.Controllers
         {
             db.DepartamentoTBL.Update(est);
             db.SaveChanges();
-            return RedirectToAction("Departaemento");
+            return RedirectToAction("Departamento");
         }
         //DELETE
         public IActionResult DepartamentoEliminar(int id)
@@ -353,8 +353,8 @@ namespace ZoneTech.Controllers
 
         public ActionResult Categoria()
         {
-            var estad = db.EstadoTBL.ToList();
-            ViewBag.estado = estad;
+            var estad = db.CategoriaTBL.ToList();
+            ViewBag.listado = estad;
             return View();
         }
 
@@ -439,7 +439,14 @@ namespace ZoneTech.Controllers
 
         public ActionResult Modelo()
         {
-            var list = from mdl in db.ModeloTBL
+
+
+            var lista = db.ModeloTBL.ToList();
+            ViewBag.listado = lista;
+            return View();
+
+
+            /*    var list = from mdl in db.ModeloTBL
                        from mar in db.MarcaTBL
                        from ctgc in db.CategoriaTBL
                        where mdl.MarcaId == mar.MarcaId
@@ -459,6 +466,7 @@ namespace ZoneTech.Controllers
             ViewBag.marca = marc;
             var ctg = db.CategoriaTBL.ToList();
             ViewBag.categoria = ctg;
+            return View();*/
             return View();
         }
 
@@ -549,20 +557,27 @@ namespace ZoneTech.Controllers
 
         public ActionResult Municipio()
         {
-            var list = from mn in db.MunicipioTBL
-                       from dep in db.DepartamentoTBL
-                       where mn.DepartamentoId == dep.DepartamentoId
-                       select new
-                       {
-                           ID = mn.MunicipioId,
-                           Nombre = mn.Nombre,
-                           DepartID = mn.DepartamentoId,
-                           NombreDep = dep.Nombre
 
-                       };
-            ViewBag.query = list;
-            var depart = db.DepartamentoTBL.ToList();
-            ViewBag.departamento = depart;
+            var lista = db.MunicipioTBL.ToList();
+            ViewBag.listado = lista;
+            
+
+
+
+            //var list = from mn in db.MunicipioTBL
+            //         from dep in db.DepartamentoTBL
+            //       where mn.DepartamentoId == dep.DepartamentoId
+            //     select new
+            //   {
+            //     ID = mn.MunicipioId,
+            //   Nombre = mn.Nombre,
+            // DepartID = mn.DepartamentoId,
+            //NombreDep = dep.Nombre
+
+            //};
+            //ViewBag.query = list;
+            //var depart = db.DepartamentoTBL.ToList();
+            //ViewBag.departamento = depart;
             return View();
         }
 
@@ -576,8 +591,8 @@ namespace ZoneTech.Controllers
         // GET: MarcaController/Create
         public ActionResult CrearMunicipio()
         {
-            var depart = db.DepartamentoTBL.ToList();
-            ViewBag.departamento = depart;
+            var depart = db.MunicipioTBL.ToList();
+            ViewBag.listado = depart;
             return View();
         }
 
@@ -642,6 +657,7 @@ namespace ZoneTech.Controllers
         }
 
         #endregion
+
 
         #region Cliente
 

@@ -1,0 +1,24 @@
+﻿@model ZoneTech.Models.ModeloML
+@{
+
+}
+
+<form asp-controller="Admin" asp-action="CrearModelo">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Nombre</label>
+    <input type="text" asp-for="Nombre" class="form-control">
+
+    <label for="exampleInputEmail1">Marca Id</label>
+    <input type="text" asp-for="MarcaId" class="form-control">
+
+    <label for="exampleInputEmail1">Categoria ID</label>
+    <input type="text" asp-for="CategoriaId" class="form-control">
+  </div>
+
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+

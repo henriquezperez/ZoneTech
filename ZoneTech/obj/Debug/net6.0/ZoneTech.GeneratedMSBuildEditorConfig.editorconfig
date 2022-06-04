@@ -43,28 +43,56 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQXJ0aWN1bG9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/CategoriaEditar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2F0ZWdvcmlhRWRpdGFyLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/CategoriaNueva.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2F0ZWdvcmlhTnVldmEuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/Categorias.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2F0ZWdvcmlhcy5jc2h0bWw=
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/Categoria.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2F0ZWdvcmlhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/ControlAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ29udHJvbEFkbWluLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/CrearCategoria.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXJDYXRlZ29yaWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/CrearMarca.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXJNYXJjYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/CrearModelo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXJNb2RlbG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/CrearMunicipio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXJNdW5pY2lwaW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/Departamento.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVwYXJ0YW1lbnRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/DepartamentoEditar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVwYXJ0YW1lbnRvRWRpdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/DepartamentoNuevo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVwYXJ0YW1lbnRvTnVldm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/EditarCategoria.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdGFyQ2F0ZWdvcmlhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/EditarMarca.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdGFyTWFyY2EuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/EditarModelo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdGFyTW9kZWxvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/EditarMunicipio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdGFyTXVuaWNpcGlvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/Estado.cshtml]
@@ -87,16 +115,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFyY2EuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/TipoClientesNuevo.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVGlwb0NsaWVudGVzTnVldm8uY3NodG1s
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/Modelo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTW9kZWxvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/TiposClientes.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVGlwb3NDbGllbnRlcy5jc2h0bWw=
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/Municipio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTXVuaWNpcGlvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/TiposClientesEditar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVGlwb3NDbGllbnRlc0VkaXRhci5jc2h0bWw=
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/TipoCliente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVGlwb0NsaWVudGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/TipoClienteEditar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVGlwb0NsaWVudGVFZGl0YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/TipoClienteNuevo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVGlwb0NsaWVudGVOdWV2by5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/TipoUsuario.cshtml]
