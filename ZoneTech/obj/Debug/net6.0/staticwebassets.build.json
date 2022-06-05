@@ -1,10 +1,6 @@
 {
   "Version": 1,
-<<<<<<< HEAD
   "Hash": "hmPZ/t98p26iFR0eNHXFclguCWBnZCbZVBVXsOJMjVs=",
-=======
-  "Hash": "jzW/66BkhUgLS8A2MzvsYWbu5zRCuJrNveuqKkcjvuk=",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
   "Source": "ZoneTech",
   "BasePath": "_content/ZoneTech",
   "Mode": "Default",
@@ -14,164 +10,17 @@
     {
       "Name": "ZoneTech\\wwwroot",
       "Source": "ZoneTech",
-<<<<<<< HEAD
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
-      "BasePath": "_content/ZoneTech",
-      "RelativePath": "css/bootstrap.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
-      "BasePath": "_content/ZoneTech",
-      "RelativePath": "css/bootstrap.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
-      "BasePath": "_content/ZoneTech",
-      "RelativePath": "css/bootstrap.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
-      "BasePath": "_content/ZoneTech",
-      "RelativePath": "css/bootstrap.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
-      "BasePath": "_content/ZoneTech",
-      "RelativePath": "css/bootstrap.rtl.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
-      "BasePath": "_content/ZoneTech",
-      "RelativePath": "css/bootstrap.rtl.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
-      "BasePath": "_content/ZoneTech",
-      "RelativePath": "css/bootstrap.rtl.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
-      "BasePath": "_content/ZoneTech",
-      "RelativePath": "css/bootstrap.rtl.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -182,7 +31,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css"
     },
     {
@@ -190,15 +38,6 @@
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -209,7 +48,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map"
     },
     {
@@ -217,15 +55,6 @@
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -236,7 +65,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css"
     },
     {
@@ -244,15 +72,6 @@
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -263,7 +82,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map"
     },
     {
@@ -271,15 +89,6 @@
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -290,7 +99,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css"
     },
     {
@@ -298,15 +106,6 @@
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -317,7 +116,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map"
     },
     {
@@ -325,15 +123,6 @@
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -344,7 +133,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css"
     },
     {
@@ -352,15 +140,6 @@
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -371,7 +150,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
@@ -379,15 +157,6 @@
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -398,7 +167,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css"
     },
     {
@@ -406,15 +174,6 @@
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -425,7 +184,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map"
     },
     {
@@ -433,15 +191,6 @@
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -452,7 +201,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css"
     },
     {
@@ -460,15 +208,6 @@
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -479,7 +218,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map"
     },
     {
@@ -487,15 +225,6 @@
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -506,7 +235,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css"
     },
     {
@@ -514,15 +242,6 @@
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -533,7 +252,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
@@ -541,15 +259,6 @@
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -560,7 +269,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
@@ -568,15 +276,6 @@
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -587,7 +286,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
@@ -595,15 +293,6 @@
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -614,7 +303,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css"
     },
     {
@@ -622,15 +310,6 @@
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -641,7 +320,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map"
     },
     {
@@ -649,15 +327,6 @@
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -668,7 +337,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css"
     },
     {
@@ -676,15 +344,6 @@
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -695,7 +354,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map"
     },
     {
@@ -703,15 +361,6 @@
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -722,7 +371,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css"
     },
     {
@@ -730,15 +378,6 @@
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -749,7 +388,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
@@ -757,15 +395,6 @@
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -776,7 +405,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
@@ -784,15 +412,6 @@
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -803,7 +422,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
@@ -947,15 +565,6 @@
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -966,7 +575,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js"
     },
     {
@@ -974,15 +582,6 @@
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -993,7 +592,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map"
     },
     {
@@ -1001,15 +599,6 @@
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1020,7 +609,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js"
     },
     {
@@ -1028,15 +616,6 @@
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1047,7 +626,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map"
     },
     {
@@ -1055,15 +633,6 @@
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1074,7 +643,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js"
     },
     {
@@ -1082,15 +650,6 @@
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1101,7 +660,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map"
     },
     {
@@ -1109,15 +667,6 @@
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1128,7 +677,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js"
     },
     {
@@ -1136,15 +684,6 @@
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1155,7 +694,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map"
     },
     {
@@ -1163,15 +701,6 @@
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "js/bootstrap.js",
       "AssetKind": "All",
@@ -1182,7 +711,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js"
     },
     {
@@ -1190,15 +718,6 @@
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1209,7 +728,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map"
     },
     {
@@ -1217,15 +735,6 @@
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1236,7 +745,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js"
     },
     {
@@ -1244,15 +752,6 @@
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1263,7 +762,6 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Miguel\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map"
     },
     {
@@ -1271,15 +769,6 @@
       "SourceId": "ZoneTech",
       "SourceType": "Computed",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\denil\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ZoneTech.styles.css",
-      "SourceId": "ZoneTech",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "ZoneTech.styles.css",
       "AssetKind": "All",
@@ -1290,7 +779,6 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ZoneTech.styles.css"
     },
     {
@@ -1298,15 +786,6 @@
       "SourceId": "ZoneTech",
       "SourceType": "Computed",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ZoneTech.styles.css"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ZoneTech.bundle.scp.css",
-      "SourceId": "ZoneTech",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "ZoneTech.bundle.scp.css",
       "AssetKind": "All",
@@ -1317,7 +796,6 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ZoneTech.bundle.scp.css"
     },
     {
@@ -1325,15 +803,6 @@
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ZoneTech.bundle.scp.css"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\css\\css\\login.css",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "css/css/login.css",
       "AssetKind": "All",
@@ -1347,17 +816,10 @@
       "OriginalItemSpec": "wwwroot\\css\\css\\login.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\css\\site.css",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\css\\site.css",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1371,17 +833,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\favicon.ico",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\favicon.ico",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1395,17 +850,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\js\\site.js",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\js\\site.js",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1419,153 +867,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
-      "BasePath": "_content/ZoneTech",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
-      "BasePath": "_content/ZoneTech",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
-      "BasePath": "_content/ZoneTech",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
-      "BasePath": "_content/ZoneTech",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
-      "BasePath": "_content/ZoneTech",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
-      "BasePath": "_content/ZoneTech",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
-      "BasePath": "_content/ZoneTech",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
-      "BasePath": "_content/ZoneTech",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1579,17 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1603,17 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1627,17 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1651,17 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1675,17 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1699,17 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1723,17 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1747,17 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1771,17 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1795,17 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1819,17 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1843,17 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1867,17 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1891,17 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1915,17 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1939,17 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1963,17 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1987,17 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2011,17 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2035,17 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2059,17 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2083,17 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2107,17 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2131,7 +1275,6 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
@@ -2272,12 +1415,6 @@
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2291,17 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2315,17 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2339,17 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2363,17 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2387,17 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2411,17 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2435,17 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2459,17 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2483,17 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2507,17 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2531,17 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2555,17 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2579,170 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
-      "BasePath": "_content/ZoneTech",
-      "RelativePath": "lib/jquery/dist/jquery.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
-      "BasePath": "_content/ZoneTech",
-      "RelativePath": "lib/jquery/dist/jquery.min.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
-      "BasePath": "_content/ZoneTech",
-      "RelativePath": "lib/jquery/dist/jquery.min.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
-      "BasePath": "_content/ZoneTech",
-      "RelativePath": "lib/jquery/LICENSE.txt",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
-      "BasePath": "_content/ZoneTech",
-      "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
-      "BasePath": "_content/ZoneTech",
-      "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
-      "BasePath": "_content/ZoneTech",
-      "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
-      "BasePath": "_content/ZoneTech",
-      "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
-      "BasePath": "_content/ZoneTech",
-      "RelativePath": "lib/jquery-validation/LICENSE.md",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
-    },
-    {
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2756,17 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2780,17 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "ZoneTech",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "SourceId": "ZoneTech",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\denil\\OneDrive\\Escritorio\\AplicadaProyecto\\ZoneTech\\ZoneTech\\wwwroot\\",
->>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
       "BasePath": "_content/ZoneTech",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
