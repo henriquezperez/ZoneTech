@@ -8,6 +8,7 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ZoneTech
 build_property.RootNamespace = ZoneTech
+<<<<<<< HEAD
 build_property.ProjectDir = E:\Biblioteca\Escritorio\ZoneTech\ZoneTech\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
@@ -188,5 +189,183 @@ build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Biblioteca/Escritorio/ZoneTech/ZoneTech/Views/Shared/_Layout.cshtml]
+=======
+build_property.ProjectDir = C:\Users\denil\OneDrive\Escritorio\AplicadaProyecto\ZoneTech\ZoneTech\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\denil\OneDrive\Escritorio\AplicadaProyecto\ZoneTech\ZoneTech
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Acceso/Denegado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNvXERlbmVnYWRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Acceso/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNvXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Acceso/PruebaDeAcceso.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNvXFBydWViYURlQWNjZXNvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Acceso/Registrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNvXFJlZ2lzdHJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/Articuloeditar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQXJ0aWN1bG9lZGl0YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/articulonuevo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cYXJ0aWN1bG9udWV2by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/Articulos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQXJ0aWN1bG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/Categoria.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2F0ZWdvcmlhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/ControlAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ29udHJvbEFkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/CrearCategoria.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXJDYXRlZ29yaWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/CrearMarca.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXJNYXJjYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/CrearModelo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXJNb2RlbG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/CrearMunicipio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXJNdW5pY2lwaW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/Departamento.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVwYXJ0YW1lbnRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/DepartamentoEditar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVwYXJ0YW1lbnRvRWRpdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/DepartamentoNuevo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVwYXJ0YW1lbnRvTnVldm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/EditarCategoria.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdGFyQ2F0ZWdvcmlhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/EditarMarca.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdGFyTWFyY2EuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/EditarModelo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdGFyTW9kZWxvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/EditarMunicipio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdGFyTXVuaWNpcGlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/Estado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRXN0YWRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/EstadoEditar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRXN0YWRvRWRpdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/EstadoNuevo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRXN0YWRvTnVldm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/Inventario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW52ZW50YXJpby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/Marca.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFyY2EuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/Modelo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTW9kZWxvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/Municipio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTXVuaWNpcGlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/TipoCliente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVGlwb0NsaWVudGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/TipoClienteEditar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVGlwb0NsaWVudGVFZGl0YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/TipoClienteNuevo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVGlwb0NsaWVudGVOdWV2by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/TipoUsuario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVGlwb1VzdWFyaW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/TipoUsuarioEditar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVGlwb1VzdWFyaW9FZGl0YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Admin/TipoUsuarionuevo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVGlwb1VzdWFyaW9udWV2by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Home/Carrito.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXJyaXRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Home/Catalogo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXRhbG9nby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Home/Producto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/denil/OneDrive/Escritorio/AplicadaProyecto/ZoneTech/ZoneTech/Views/Shared/_Layout.cshtml]
+>>>>>>> cecf5feb1387582aacd41d1bbd641c9823c2d729
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-3yxtlsn124
