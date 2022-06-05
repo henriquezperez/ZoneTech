@@ -1,0 +1,51 @@
+@{
+
+}
+@model ZoneTech.Models.ModeloML
+@{
+    
+}
+<a class="btn btn-success" asp-controller="Modelo" asp-action="CrearModelo">Agregar</a>
+
+<h1>Lista de Modelo</h1>
+<table class="table table-dark table-striped" id="tablelist">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Modelo</th>
+      <th scope="col">Marca</th>
+      <th scope="col">Categoria</th>
+      <th>
+        <th scope="col">Opción</th>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach (var item in ViewBag.query)
+    {
+      <tr>
+        <td>@item.ID</td>
+        <td>@item.Nombre</td>
+        <td>@item.Marca</td>
+        <td>@item.Categor</td>
+         <td>
+          <td>
+            @Html.ActionLink("Eliminar","EliminarModelo",new{id=@item.ID},new{@class="btn btn-danger"})
+            @Html.ActionLink("Editar","EditarModelo",new{id=@item.ID},new{@class="btn btn-warning"})
+          </td>
+        </td>
+      </tr>
+    }
+  </tbody>
+</table>
+
+@section scripts{
+    <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        //alert("Read load");
+        var tabla = $('#tablelist').DataTable();
+      });
+    </script>
+}
