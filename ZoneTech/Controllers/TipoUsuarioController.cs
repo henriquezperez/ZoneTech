@@ -14,12 +14,10 @@ namespace ZoneTech.Controllers
             db = _db;
         }
 
-        public IActionResult TipoUsuarionuevo()
+        public IActionResult TipoUsuarioNuevo()
         {
             var list = db.EstadoTBL.ToList();
-
             ViewBag.listEstado = list;
-
             return View();
         }
 
@@ -27,7 +25,7 @@ namespace ZoneTech.Controllers
         {
             db.TipoUsuarioTBL.Add(est);
             db.SaveChanges();
-            return RedirectToAction("TipoUsuario");
+            return RedirectToAction("TipoUsuarios");
         }
 
         //READ
@@ -41,6 +39,9 @@ namespace ZoneTech.Controllers
         public IActionResult TipoUsuarioEditar(int id)
         {
             var query = db.TipoUsuarioTBL.Where(x => x.TipoUsuarioId.Equals(id)).FirstOrDefault(); //usar FirstOrDefault()
+            var list = db.EstadoTBL.ToList();
+            ViewBag.listEstado = list;
+
             return View(query);
         }
 
@@ -48,7 +49,7 @@ namespace ZoneTech.Controllers
         {
             db.TipoUsuarioTBL.Update(est);
             db.SaveChanges();
-            return RedirectToAction("TipoUsuario");
+            return RedirectToAction("TipoUsuarios");
         }
         //DELETE
         public IActionResult TipoUsuarioEliminar(int id)
@@ -61,7 +62,7 @@ namespace ZoneTech.Controllers
                 db.TipoUsuarioTBL.Remove(est);
                 db.SaveChanges();
             }
-            return RedirectToAction("TipoUsuario");
+            return RedirectToAction("TipoUsuarios");
         }
 
     }

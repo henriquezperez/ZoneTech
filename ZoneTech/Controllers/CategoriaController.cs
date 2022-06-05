@@ -18,6 +18,8 @@ namespace ZoneTech.Controllers
 
         public ActionResult Categoria()
         {
+            var lista = db.CategoriaTBL.ToList();
+            ViewBag.list = lista;
             var estad = db.EstadoTBL.ToList();
             ViewBag.estado = estad;
             return View();

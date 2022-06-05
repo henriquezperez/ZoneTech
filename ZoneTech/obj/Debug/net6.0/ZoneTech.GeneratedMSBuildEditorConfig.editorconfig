@@ -51,16 +51,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWN1bG9zXEFydGljdWxvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Biblioteca/Escritorio/ZoneTech/ZoneTech/Views/Categoria/CategoriaEditar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXENhdGVnb3JpYUVkaXRhci5jc2h0bWw=
+[E:/Biblioteca/Escritorio/ZoneTech/ZoneTech/Views/Categoria/Categoria.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXENhdGVnb3JpYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Biblioteca/Escritorio/ZoneTech/ZoneTech/Views/Categoria/CategoriaNueva.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXENhdGVnb3JpYU51ZXZhLmNzaHRtbA==
+[E:/Biblioteca/Escritorio/ZoneTech/ZoneTech/Views/Categoria/CrearCategoria.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXENyZWFyQ2F0ZWdvcmlhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Biblioteca/Escritorio/ZoneTech/ZoneTech/Views/Categoria/Categorias.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXENhdGVnb3JpYXMuY3NodG1s
+[E:/Biblioteca/Escritorio/ZoneTech/ZoneTech/Views/Categoria/EditarCategoria.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXEVkaXRhckNhdGVnb3JpYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Biblioteca/Escritorio/ZoneTech/ZoneTech/Views/Departamento/DepartamentoEditar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0YW1lbnRvXERlcGFydGFtZW50b0VkaXRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Biblioteca/Escritorio/ZoneTech/ZoneTech/Views/Departamento/DepartamentoNuevo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0YW1lbnRvXERlcGFydGFtZW50b051ZXZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Biblioteca/Escritorio/ZoneTech/ZoneTech/Views/Departamento/Departamentos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0YW1lbnRvXERlcGFydGFtZW50b3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Biblioteca/Escritorio/ZoneTech/ZoneTech/Views/Estados/Estado.cshtml]
@@ -99,16 +111,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0by5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Biblioteca/Escritorio/ZoneTech/ZoneTech/Views/Marca/MarcaNuevo.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FcTWFyY2FOdWV2by5jc2h0bWw=
+[E:/Biblioteca/Escritorio/ZoneTech/ZoneTech/Views/Marca/CrearMarca.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FcQ3JlYXJNYXJjYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Biblioteca/Escritorio/ZoneTech/ZoneTech/Views/Marca/Marcas.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FcTWFyY2FzLmNzaHRtbA==
+[E:/Biblioteca/Escritorio/ZoneTech/ZoneTech/Views/Marca/EditarMarca.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FcRWRpdGFyTWFyY2EuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Biblioteca/Escritorio/ZoneTech/ZoneTech/Views/Marca/MarcasEditar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FcTWFyY2FzRWRpdGFyLmNzaHRtbA==
+[E:/Biblioteca/Escritorio/ZoneTech/ZoneTech/Views/Marca/Marca.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FcTWFyY2EuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Biblioteca/Escritorio/ZoneTech/ZoneTech/Views/Municipio/CrearMunicipio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVuaWNpcGlvXENyZWFyTXVuaWNpcGlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Biblioteca/Escritorio/ZoneTech/ZoneTech/Views/Municipio/EditarMunicipio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVuaWNpcGlvXEVkaXRhck11bmljaXBpby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Biblioteca/Escritorio/ZoneTech/ZoneTech/Views/Municipio/Municipio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVuaWNpcGlvXE11bmljaXBpby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Biblioteca/Escritorio/ZoneTech/ZoneTech/Views/Shared/Error.cshtml]
@@ -119,16 +143,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Biblioteca/Escritorio/ZoneTech/ZoneTech/Views/TipoCliente/TipoCliente.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0NsaWVudGVcVGlwb0NsaWVudGUuY3NodG1s
+[E:/Biblioteca/Escritorio/ZoneTech/ZoneTech/Views/TipoClientes/TipoClienteEditar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0NsaWVudGVzXFRpcG9DbGllbnRlRWRpdGFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Biblioteca/Escritorio/ZoneTech/ZoneTech/Views/TipoCliente/TipoClientesNuevo.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0NsaWVudGVcVGlwb0NsaWVudGVzTnVldm8uY3NodG1s
+[E:/Biblioteca/Escritorio/ZoneTech/ZoneTech/Views/TipoClientes/TipoClienteNuevo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0NsaWVudGVzXFRpcG9DbGllbnRlTnVldm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Biblioteca/Escritorio/ZoneTech/ZoneTech/Views/TipoCliente/TiposClientesEditar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0NsaWVudGVcVGlwb3NDbGllbnRlc0VkaXRhci5jc2h0bWw=
+[E:/Biblioteca/Escritorio/ZoneTech/ZoneTech/Views/TipoClientes/TipoClientes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0NsaWVudGVzXFRpcG9DbGllbnRlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Biblioteca/Escritorio/ZoneTech/ZoneTech/Views/TipoUsuario/TipoUsuarioEditar.cshtml]

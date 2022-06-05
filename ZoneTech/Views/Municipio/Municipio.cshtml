@@ -1,35 +1,35 @@
 @{
 
 }
-@model ZoneTech.Models.TipoUsuarioML
+@model ZoneTech.Models.MunicipioML
 @{
     
 }
-<a class="btn btn-success" asp-controller="TipoUsuario" asp-action="TipoUsuarioNuevo">Agregar</a>
+<a class="btn btn-success" asp-controller="Municipio" asp-action="CrearMunicipio">Agregar</a>
 
-<h1>Lista de Tipos de usuarios</h1>
+<h1>Lista de Municipios</h1>
 <table class="table table-dark table-striped" id="tablelist">
   <thead>
     <tr>
       <th scope="col">ID</th>
-      <th scope="col">Nombre</th>
-      <th scope="col">Estado</th>
+      <th scope="col">Municipio</th>
+      <th scope="col">Departamento</th>
       <th>
         <th scope="col">Opción</th>
       </th>
     </tr>
   </thead>
   <tbody>
-    @foreach (var item in ViewBag.listado)
+    @foreach (var item in ViewBag.query)
     {
       <tr>
-        <td>@item.TipoUsuarioId</td>
+        <td>@item.ID</td>
         <td>@item.Nombre</td>
-        <td>@item.EstadoId</td>
+        <td>@item.NombreDep</td>
          <td>
           <td>
-            @Html.ActionLink("Eliminar","TipoUsuarioEliminar",new{id=@item.TipoUsuarioId},new{@class="btn btn-danger"})
-            @Html.ActionLink("Editar","TipoUsuarioEditar",new{id=@item.TipoUsuarioId},new{@class="btn btn-warning"})
+            @Html.ActionLink("Eliminar","EliminarMunicipio",new{id=@item.ID},new{@class="btn btn-danger"})
+            @Html.ActionLink("Editar","EditarMunicipio",new{id=@item.ID},new{@class="btn btn-warning"})
           </td>
         </td>
       </tr>

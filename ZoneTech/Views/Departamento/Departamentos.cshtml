@@ -1,19 +1,18 @@
 @{
 
 }
-@model ZoneTech.Models.TipoUsuarioML
+@model ZoneTech.Models.DepartamentoML
 @{
     
 }
-<a class="btn btn-success" asp-controller="TipoUsuario" asp-action="TipoUsuarioNuevo">Agregar</a>
+<a class="btn btn-success" asp-controller="Departamento" asp-action="DepartamentoNuevo">Agregar</a>
 
-<h1>Lista de Tipos de usuarios</h1>
+<h1>Lista de Departamentos</h1>
 <table class="table table-dark table-striped" id="tablelist">
   <thead>
     <tr>
       <th scope="col">ID</th>
       <th scope="col">Nombre</th>
-      <th scope="col">Estado</th>
       <th>
         <th scope="col">Opción</th>
       </th>
@@ -23,13 +22,12 @@
     @foreach (var item in ViewBag.listado)
     {
       <tr>
-        <td>@item.TipoUsuarioId</td>
+        <td>@item.DepartamentoId</td>
         <td>@item.Nombre</td>
-        <td>@item.EstadoId</td>
          <td>
           <td>
-            @Html.ActionLink("Eliminar","TipoUsuarioEliminar",new{id=@item.TipoUsuarioId},new{@class="btn btn-danger"})
-            @Html.ActionLink("Editar","TipoUsuarioEditar",new{id=@item.TipoUsuarioId},new{@class="btn btn-warning"})
+            @Html.ActionLink("Eliminar","DepartamentoEliminar",new{id=@item.DepartamentoId},new{@class="btn btn-danger"})
+            @Html.ActionLink("Editar","DepartamentoEditar",new{id=@item.DepartamentoId},new{@class="btn btn-warning"})
           </td>
         </td>
       </tr>

@@ -24,11 +24,11 @@ namespace ZoneTech.Controllers
         {
             db.DepartamentoTBL.Add(est);
             db.SaveChanges();
-            return RedirectToAction("Departamento");
+            return RedirectToAction("Departamentos");
         }
 
         //READ
-        public IActionResult Departamento()
+        public IActionResult Departamentos()
         {
             var lista = db.DepartamentoTBL.ToList();
             ViewBag.listado = lista;
@@ -45,7 +45,7 @@ namespace ZoneTech.Controllers
         {
             db.DepartamentoTBL.Update(est);
             db.SaveChanges();
-            return RedirectToAction("Departaemento");
+            return RedirectToAction("Departamentos");
         }
         //DELETE
         public IActionResult DepartamentoEliminar(int id)
@@ -58,7 +58,7 @@ namespace ZoneTech.Controllers
                 db.DepartamentoTBL.Remove(est);
                 db.SaveChanges();
             }
-            return RedirectToAction("Departamento");
+            return RedirectToAction("Departamentos");
         }
 
     }

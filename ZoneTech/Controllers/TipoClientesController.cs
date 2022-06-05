@@ -23,11 +23,11 @@ namespace ZoneTech.Controllers
         {
             db.TipoClienteTBL.Add(est);
             db.SaveChanges();
-            return RedirectToAction("TipoCliente");
+            return RedirectToAction("TipoClientes");
         }
         
          //READ
-        public IActionResult TipoCliente(){
+        public IActionResult TipoClientes(){
             var lista = db.TipoClienteTBL.ToList();
             ViewBag.listado = lista;
             return View();
@@ -41,7 +41,7 @@ namespace ZoneTech.Controllers
         public IActionResult TipoClienteActualizar(TipoClienteML est){
             db.TipoClienteTBL.Update(est);
             db.SaveChanges();
-            return RedirectToAction("TipoCliente");
+            return RedirectToAction("TipoClientes");
         }
         //DELETE
         public IActionResult TipoClienteEliminar(int id){
@@ -52,7 +52,7 @@ namespace ZoneTech.Controllers
                 db.TipoClienteTBL.Remove(est);
                 db.SaveChanges();
             }
-            return RedirectToAction("TipoCliente");
+            return RedirectToAction("TipoClientes");
         }
 
     }

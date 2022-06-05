@@ -17,6 +17,8 @@ namespace ZoneTech.Controllers
         #region Marca
         public ActionResult Marca()
         {
+            var marcas = db.MarcaTBL.ToList();//->
+            ViewBag.list = marcas;
             var estd = db.EstadoTBL.ToList();
             ViewBag.estado = estd;
             return View();
