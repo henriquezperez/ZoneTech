@@ -3,28 +3,34 @@
 
 }
 <h3>Nuevo registro</h3>
-<form asp-controller="Modelo" asp-action="CrearModelo">
-  <div class="form-group">
-    <label for="exampleInputEmail1">Nombre</label>
-    <input type="text" asp-for="Nombre" class="form-control">
+<section class="Form">
+  <div class="cuadro-input">
+    <div class="data">
+        <form asp-controller="Modelo" asp-action="CrearModelo">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Nombre</label>
+            <input type="text" asp-for="Nombre" class="form-control casilla">
+          </div>
+            <div class="mb-3">
+                <label for="" class="form-label">Marca</label>
+                <select class="form-select" aria-label="Default select example" name="MarcaId">
+                    @foreach(var item in ViewBag.marca)
+                    {
+                      <option value="@item.MarcaId">@item.Nombre</option>
+                    }
+                </select>   
+            </div>
+              <div class="mb-3">
+                <label for="" class="form-label">Categoria</label>
+                <select class="form-select" aria-label="Default select example" name="CategoriaId">
+                    @foreach(var item in ViewBag.categoria)
+                    {
+                      <option value="@item.CategoriaId">@item.Nombre</option>
+                    }
+                </select>   
+            </div>
+          <button type="submit" class="btn btn-primary">Guardar</button>
+        </form>
+    </div>
   </div>
-    <div class="mb-3">
-        <label for="" class="form-label">Marca</label>
-        <select class="form-select" aria-label="Default select example" name="MarcaId">
-            @foreach(var item in ViewBag.marca)
-            {
-              <option value="@item.MarcaId">@item.Nombre</option>
-            }
-        </select>   
-    </div>
-      <div class="mb-3">
-        <label for="" class="form-label">Categoria</label>
-        <select class="form-select" aria-label="Default select example" name="CategoriaId">
-            @foreach(var item in ViewBag.categoria)
-            {
-              <option value="@item.CategoriaId">@item.Nombre</option>
-            }
-        </select>   
-    </div>
-  <button type="submit" class="btn btn-primary">Guardar</button>
-</form>
+</section>

@@ -2,49 +2,54 @@
 @{
       
 }
+<section class="Form">
+  <div class="cuadro-input">
+    <div class="data">
+        <form asp-controller="Articulos" asp-action="InsertArticulo">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Nombre</label>
+            <input type="text" class="form-control casilla">
+          </div>
 
-<form asp-controller="Articulos" asp-action="InsertArticulo">
-  <div class="form-group">
-    <label for="exampleInputEmail1">Nombre</label>
-    <input type="text" class="form-control">
-  </div>
+            <div class="mb-3">
+                <label for="" class="form-label">Marca</label>
+                <select class="form-select" aria-label="Default select example" name="areaid">
+                    @foreach(var item in ViewBag.listMarca)
+                    {
+                      <option value="@item.MarcaId">@item.Nombre</option>
+                    }
+                </select>   
+            </div>
+          <div class="mb-3">
+                  <label for="" class="form-label">Categoria</label>
+                  <select class="form-select" aria-label="Default select example" name="areaid">
+                      @foreach(var item in ViewBag.listCategoria)
+                      {
+                        <option value="@item.CategoriaId">@item.Nombre</option>
+                      }
+                  </select>   
+              </div>
+              <div class="mb-3">
+                <label for="" class="form-label">Modelo</label>
+                <select class="form-select" aria-label="Default select example" name="areaid">
+                    @foreach(var item in ViewBag.listModelo)
+                    {
+                      <option value="@item.ModeloId">@item.Nombre</option>
+                    }
+                </select>   
+            </div>
 
-    <div class="mb-3">
-        <label for="" class="form-label">Marca</label>
-        <select class="form-select" aria-label="Default select example" name="areaid">
-            @foreach(var item in ViewBag.listMarca)
-            {
-              <option value="@item.MarcaId">@item.Nombre</option>
-            }
-        </select>   
+          <div class="mb-3">
+              <label for="" class="form-label">Imagen</label>
+              <input type="file" name="imagen" class="form-control casilla">              
+          </div>
+          
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
     </div>
-  <div class="mb-3">
-          <label for="" class="form-label">Categoria</label>
-          <select class="form-select" aria-label="Default select example" name="areaid">
-              @foreach(var item in ViewBag.listCategoria)
-              {
-                <option value="@item.CategoriaId">@item.Nombre</option>
-              }
-          </select>   
-      </div>
-      <div class="mb-3">
-        <label for="" class="form-label">Modelo</label>
-        <select class="form-select" aria-label="Default select example" name="areaid">
-            @foreach(var item in ViewBag.listModelo)
-            {
-              <option value="@item.ModeloId">@item.Nombre</option>
-            }
-        </select>   
-    </div>
-
-   <div class="mb-3">
-      <label for="" class="form-label">Imagen</label>
-      <input type="file" name="imagen" class="form-control"   >              
   </div>
-  
-  <div class="form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+</section>

@@ -3,19 +3,25 @@
 
 }
 <h3>Nuevo registro</h3>
-<form asp-controller="Municipio" asp-action="CrearMunicipio">
-  <div class="form-group">
-    <label for="exampleInputEmail1">Nombre</label>
-    <input type="text" asp-for="Nombre" class="form-control">
-  </div>
-    <div class="mb-3">
-        <label for="" class="form-label">Departamento</label>
-        <select class="form-select" aria-label="Default select example" name="DepartamentoId">
-            @foreach(var item in ViewBag.departamento)
-            {
-              <option value="@item.DepartamentoId">@item.Nombre</option>
-            }
-        </select>   
+<section class="Form">
+  <div class="cuadro-input">
+    <div class="data">
+        <form asp-controller="Municipio" asp-action="CrearMunicipio">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Nombre</label>
+          <input type="text" asp-for="Nombre" class="form-control casilla">
+        </div>
+          <div class="mb-3">
+              <label for="" class="form-label">Departamento</label>
+              <select class="form-select" aria-label="Default select example" name="DepartamentoId">
+                  @foreach(var item in ViewBag.departamento)
+                  {
+                    <option value="@item.DepartamentoId">@item.Nombre</option>
+                  }
+              </select>   
+          </div>
+        <button type="submit" class="btn btn-primary">Guardar</button>
+      </form>
     </div>
-  <button type="submit" class="btn btn-primary">Guardar</button>
-</form>
+  </div>
+</section>

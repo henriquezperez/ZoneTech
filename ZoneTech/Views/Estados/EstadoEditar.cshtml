@@ -3,14 +3,20 @@
 
 }
 <h3>Actualizar</h3>
-<form asp-controller="Estados" asp-action="EstadoActualizar">
-    <div>
-        <label for="">ID</label>
-        <input type="text" asp-for="EstadoId"/>
+<section class="Form">
+  <div class="cuadro-input">
+    <div class="data">
+        <form asp-controller="Estados" asp-action="EstadoActualizar">
+            <div>
+                <label for="">ID</label>
+                <input type="text" asp-for="EstadoId" class="form-control casilla">
+            </div>
+            <div>
+            <label for="">Nombre</label>
+                <input type="text" asp-for="Nombre" class="form-control casilla">      
+            </div>
+            <button type="submit" class="btn btn-primary">Guardar</button>
+        </form>
     </div>
-    <div>
-       <label for="">Nombre</label>
-        <input type="text" asp-for="Nombre"/>      
-    </div>
-    <button type="submit" >Guardar</button>
-</form>
+  </div>
+</section>
