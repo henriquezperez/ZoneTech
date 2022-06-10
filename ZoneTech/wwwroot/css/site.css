@@ -75,6 +75,28 @@ input{
 }*/
 
 
+/* CARDS */
+
+.card, .col, .row, .card-img-top{
+  color: #17202A;
+  border-radius: 15px;
+}
+
+.col{
+  transition: all .3s;
+}
+.col:hover{
+transform: translateY(-10px);
+box-shadow: 20px rgba(0, 0, 0, .7);
+}
+
+.col:active{
+transform: translateY(-5px);
+box-shadow: 0 5px 2px rgba(0, 0, 0, .7);
+}
+
+/* fin */
+
 
 /*Menu lateral izquierdo*/
 @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
