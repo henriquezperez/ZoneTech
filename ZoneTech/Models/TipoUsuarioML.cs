@@ -12,10 +12,10 @@ namespace ZoneTech.Models
         [Required]
         [StringLength(25)]
         public string Nombre { get; set; }
-        
+
         [Required]
-        
-        public int EstadoId {get; set;}
+
+        public int EstadoId { get; set; }
         [ForeignKey("EstadoId")]
         public EstadoML estado_FK { get; set; }
 

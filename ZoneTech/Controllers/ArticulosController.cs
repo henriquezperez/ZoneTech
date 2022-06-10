@@ -25,8 +25,10 @@ namespace ZoneTech.Controllers
         public IActionResult InsertArticulo(ArticuloML art)
         {
             db.ArticuloTBL.Add(art);
-            return View("Articulos");
+            db.SaveChanges();
+            return RedirectToAction("Articulos");
         }
+
 
         public IActionResult DeleteArticulo(int id)
         {
@@ -42,10 +44,12 @@ namespace ZoneTech.Controllers
             var list = db.MarcaTBL.ToList();
             var listCa = db.CategoriaTBL.ToList();
             var listMo = db.ModeloTBL.ToList();
+            var listEts = db.EstadoTBL.ToList();
 
             ViewBag.listMarca = list;
             ViewBag.listCategoria = listCa;
             ViewBag.listModelo = listMo;
+            ViewBag.estado = listEts;
             return View();
         }
 

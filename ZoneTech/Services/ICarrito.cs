@@ -9,6 +9,6 @@ namespace ZoneTech.Services
         public void DelteCarrito(CarritoML crt);
         public List<CarritoML> GetAllCarrito();
         public CarritoML LoadInfoCarrito(CarritoML crt);
-    
+
     }
 }

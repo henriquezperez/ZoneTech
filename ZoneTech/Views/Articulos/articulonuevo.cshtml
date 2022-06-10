@@ -2,6 +2,7 @@
 @{
       
 }
+<h1>Nuevo producto</h1>
 <section class="Form">
   <div class="cuadro-input">
     <div class="data">
@@ -16,7 +17,7 @@
           </div>
             <div class="mb-3">
                 <label for="" class="form-label">Marca</label>
-                <select class="form-select" aria-label="Default select example" name="areaid">
+                <select class="form-select" aria-label="Default select example" name="MarcaId">
                     @foreach(var item in ViewBag.listMarca)
                     {
                       <option value="@item.MarcaId">@item.Nombre</option>
@@ -25,7 +26,7 @@
             </div>
           <div class="mb-3">
                   <label for="" class="form-label">Categoria</label>
-                  <select class="form-select" aria-label="Default select example" name="areaid">
+                  <select class="form-select" aria-label="Default select example" name="CategoriaId">
                       @foreach(var item in ViewBag.listCategoria)
                       {
                         <option value="@item.CategoriaId">@item.Nombre</option>
@@ -34,7 +35,7 @@
               </div>
               <div class="mb-3">
                 <label for="" class="form-label">Modelo</label>
-                <select class="form-select" aria-label="Default select example" name="areaid">
+                <select class="form-select" aria-label="Default select example" name="ModeloId">
                     @foreach(var item in ViewBag.listModelo)
                     {
                       <option value="@item.ModeloId">@item.Nombre</option>
@@ -44,7 +45,7 @@
 
           <div class="mb-3">
               <label for="" class="form-label">Imagen</label>
-              <input type="text" asp-for="RutaImagen" name="imagen" class="form-control casilla">              
+              <input type="text" asp-for="RutaImagen"  class="form-control casilla">              
           </div>
            <div class="mb-3">
               <label for="" class="form-label">Costo</label>
@@ -54,7 +55,16 @@
               <label for="" class="form-label">Precio</label>
               <input type="text" asp-for="Precio" class="form-control casilla">              
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+             <div class="mb-3">
+                <label for="" class="form-label">Estado</label>
+                <select class="form-select" aria-label="Default select example" name="EstadoId">
+                    @foreach(var item in ViewBag.estado)
+                    {
+                    <option value="@item.EstadoId">@item.Nombre</option>
+                    }
+                </select>   
+            </div>
+          <button type="submit" class="btn btn-primary">Guardar</button>
       </form>
     </div>
   </div>

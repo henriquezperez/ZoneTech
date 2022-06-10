@@ -8,7 +8,7 @@ namespace ZoneTech.Services
         public void UpdateDepartamento(DepartamentoML dpm);
         public void DeleteDepartamento(DepartamentoML dpm);
         public List<DepartamentoML> GetDepartamentoList();
-        public  DepartamentoML LoadInfo(DepartamentoML dpm);
+        public DepartamentoML LoadInfo(DepartamentoML dpm);
 
     }
 }

@@ -22,7 +22,7 @@ namespace ZoneTech.Models
         public string DUI { get; set; }
 
         [Required]
-       
+
         public int TipoClienteId { get; set; }
         [ForeignKey("TipoClienteId")]
         public TipoClienteML tipoCliente_FK { get; set; }
@@ -31,13 +31,13 @@ namespace ZoneTech.Models
         public string Residencia { get; set; }
 
         [Required]
-        
+
         public int MunicipioId { get; set; }
         [ForeignKey("MunicipioId")]
         public MunicipioML municipio_FK { get; set; }
 
         //no requerido
-        public int UsuarioId {get; set;}
+        public int UsuarioId { get; set; }
         [ForeignKey("UsuarioId")]
         public UsuarioML usuario_FK { get; set; }
 

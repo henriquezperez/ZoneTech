@@ -11,22 +11,22 @@ namespace ZoneTech.Models
 
         [Required]
         public string NumFactura { get; set; }
-        
-        [Required]
-        public DateTime Fecha {get; set;}
 
         [Required]
-        public decimal Total {get; set;}
+        public DateTime Fecha { get; set; }
 
         [Required]
-        
-        public int UsuarioId {get; set;}
+        public decimal Total { get; set; }
+
+        [Required]
+
+        public int UsuarioId { get; set; }
         [ForeignKey("UsuarioId")]
         public UsuarioML usuario_FK { get; set; }
 
         [Required]
-        
-        public int ClienteId {get; set;}
+
+        public int ClienteId { get; set; }
         [ForeignKey("ClienteId")]
         public ClienteML cliente_FK { get; set; }
 

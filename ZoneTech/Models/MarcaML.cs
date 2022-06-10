@@ -7,17 +7,17 @@ namespace ZoneTech.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int MarcaId {get; set;}
+        public int MarcaId { get; set; }
 
         [Required]
         [StringLength(25)]
-        public string Nombre {get; set;}
-        
+        public string Nombre { get; set; }
+
         [Required]
-        
-        public int EstadoId {get; set;}
+
+        public int EstadoId { get; set; }
         [ForeignKey("EstadoId")]
-        public EstadoML estado_FK {get; set;}
+        public EstadoML estado_FK { get; set; }
 
     }
 }

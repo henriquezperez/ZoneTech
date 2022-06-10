@@ -6,7 +6,7 @@ namespace ZoneTech.Services
     {
         public void AddVenta(VentaML vnt);
         //public void UpdateVenta(VentaML vnt);
-       // public void DeleteVenta(VentaML vnt);
+        // public void DeleteVenta(VentaML vnt);
         public List<VentaML> GetAllList();
         public VentaML LoadInfoVenta(VentaML vnt);
     }

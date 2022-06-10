@@ -43,10 +43,6 @@ namespace ZoneTech.Migrations
                     b.Property<int>("EstadoId")
                         .HasColumnType("int");
 
-                    b.Property<string>("Garantia")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<int>("MarcaId")
                         .HasColumnType("int");
 

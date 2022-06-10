@@ -14,8 +14,8 @@ namespace ZoneTech.Models
         public string Nombre { get; set; }
 
         [Required]
-        
-        public int DepartamentoId {get; set;}
+
+        public int DepartamentoId { get; set; }
         [ForeignKey("DepartamentoId")]
         public DepartamentoML departamento_FK { get; set; }
 

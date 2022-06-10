@@ -9,7 +9,7 @@ namespace ZoneTech.Controllers
 
         private ApplicationDBContext db;
         private readonly ILogger<CategoriaController> _logger;
-        private readonly IWebHostEnvironment _enviroment;
+       // private readonly IWebHostEnvironment _enviroment;
         public CategoriaController(ILogger<CategoriaController> logger, ApplicationDBContext _db)
         {
             _logger = logger;
