@@ -6,15 +6,17 @@ namespace ZoneTech.Controllers
 {
     public class CategoriaController : Controller
     {
-        
+
         private ApplicationDBContext db;
         private readonly ILogger<CategoriaController> _logger;
-        public CategoriaController(ILogger<CategoriaController> logger, ApplicationDBContext _db){
+        private readonly IWebHostEnvironment _enviroment;
+        public CategoriaController(ILogger<CategoriaController> logger, ApplicationDBContext _db)
+        {
             _logger = logger;
             db = _db;
         }
 
-         #region Categoria
+        #region Categoria
 
         public ActionResult Categoria()
         {
@@ -57,6 +59,31 @@ namespace ZoneTech.Controllers
                 return View("CrearCategoria");
             }
         }
+        
+
+       /* [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> CrearCategoria(CategoriaML pCategoriaML)
+        {
+           // var fileName = System.IO.Path.Combine(_enviroment.ContentRootPath,"~/img/catalogo/categorias/",pCategoriaML.RutaImagen + (FileAccess.Read.Equals(".png")));
+
+            //await pCategoriaML.RutaImagen.TryCopyTo(new System.IO.FileStream(fileName,System.IO.FileMode.Create));
+           // var fileName = System.IO.Path.Combine(_enviroment.ContentRootPath,"~/img/catalogo/categorias/",pCategoriaML.RutaImagen);
+           // pCategoriaML.RutaImagen = fileName.ToString();
+          // var namear = pCategoriaML.RutaImagen.
+
+            try
+            {
+                db.CategoriaTBL.Add(pCategoriaML);
+                int result = db.SaveChanges();
+                return RedirectToAction("Categoria");
+            }
+            catch
+            {
+                ViewBag.estado = db.EstadoTBL.ToList();
+                return View("CrearCategoria");
+            }
+        }*/
 
         // GET: MarcaController/Edit/5
         public ActionResult EditarCategoria(int id)

@@ -6,15 +6,16 @@ namespace ZoneTech.Controllers
 {
     public class MunicipioController : Controller
     {
-        
+
         private ApplicationDBContext db;
         private readonly ILogger<MunicipioController> _logger;
-        public MunicipioController(ILogger<MunicipioController> logger, ApplicationDBContext _db){
+        public MunicipioController(ILogger<MunicipioController> logger, ApplicationDBContext _db)
+        {
             _logger = logger;
             db = _db;
         }
 
-        
+
         #region Municipio
 
         public ActionResult Municipio()

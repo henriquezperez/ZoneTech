@@ -6,15 +6,16 @@ namespace ZoneTech.Controllers
 {
     public class ModeloController : Controller
     {
-        
+
         private ApplicationDBContext db;
         private readonly ILogger<ModeloController> _logger;
-        public ModeloController(ILogger<ModeloController> logger, ApplicationDBContext _db){
+        public ModeloController(ILogger<ModeloController> logger, ApplicationDBContext _db)
+        {
             _logger = logger;
             db = _db;
         }
 
-         #region Modelo
+        #region Modelo
 
         public ActionResult Modelo()
         {

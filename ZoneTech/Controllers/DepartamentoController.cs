@@ -6,15 +6,16 @@ namespace ZoneTech.Controllers
 {
     public class DepartamentoController : Controller
     {
-        
+
         private ApplicationDBContext db;
         private readonly ILogger<DepartamentoController> _logger;
-        public DepartamentoController(ILogger<DepartamentoController> logger, ApplicationDBContext _db){
+        public DepartamentoController(ILogger<DepartamentoController> logger, ApplicationDBContext _db)
+        {
             _logger = logger;
             db = _db;
         }
 
-        
+
         public IActionResult DepartamentoNuevo()
         {
             return View();

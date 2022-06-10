@@ -6,10 +6,11 @@ namespace ZoneTech.Controllers
 {
     public class MarcaController : Controller
     {
-        
+
         private ApplicationDBContext db;
         private readonly ILogger<MarcaController> _logger;
-        public MarcaController(ILogger<MarcaController> logger, ApplicationDBContext _db){
+        public MarcaController(ILogger<MarcaController> logger, ApplicationDBContext _db)
+        {
             _logger = logger;
             db = _db;
         }

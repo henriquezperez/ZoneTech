@@ -6,15 +6,23 @@ namespace ZoneTech.Controllers
 {
     public class AdminController : Controller
     {
-        
+
         private ApplicationDBContext db;
         private readonly ILogger<AdminController> _logger;
-        public AdminController(ILogger<AdminController> logger, ApplicationDBContext _db){
+        public AdminController(ILogger<AdminController> logger, ApplicationDBContext _db)
+        {
             _logger = logger;
             db = _db;
         }
 
-        public IActionResult ControlAdmin(){
+
+
+        public IActionResult ControlAdmin()
+        {
+
+
+            //var imgImagen.ImageUrl = "../Img/cliente.png";
+            ViewBag.img = "img/cliente.png";
             return View();
         }
 
@@ -202,16 +210,18 @@ namespace ZoneTech.Controllers
 
         /*Miguel _________________________________________________________________________________________*/
 
-       
-        public IActionResult Inventario(){
+
+        public IActionResult Inventario()
+        {
             var list = from art in db.ArticuloTBL
-                        from inv in db.InventarioTBL
-                        where art.ArticuloId == inv.ArticuloId
-                        select new{
-                                ID = art.ArticuloId,
-                                Nombre = art.Nombre,
-                                Existencia = inv.Existencia
-                        };
+                       from inv in db.InventarioTBL
+                       where art.ArticuloId == inv.ArticuloId
+                       select new
+                       {
+                           ID = art.ArticuloId,
+                           Nombre = art.Nombre,
+                           Existencia = inv.Existencia
+                       };
             ViewBag.query = list;
             return View();
         }

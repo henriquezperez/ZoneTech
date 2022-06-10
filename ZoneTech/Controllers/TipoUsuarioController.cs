@@ -6,10 +6,11 @@ namespace ZoneTech.Controllers
 {
     public class TipoUsuarioController : Controller
     {
-        
+
         private ApplicationDBContext db;
         private readonly ILogger<TipoUsuarioController> _logger;
-        public TipoUsuarioController(ILogger<TipoUsuarioController> logger, ApplicationDBContext _db){
+        public TipoUsuarioController(ILogger<TipoUsuarioController> logger, ApplicationDBContext _db)
+        {
             _logger = logger;
             db = _db;
         }
