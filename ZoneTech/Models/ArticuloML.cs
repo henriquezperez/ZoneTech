@@ -12,44 +12,44 @@ namespace ZoneTech.Models
         [Required]
         [StringLength(25)]
         public string Nombre { get; set; }
-        
+
         [Required]
-        
-        public int MarcaId {get; set;}
+
+        public int MarcaId { get; set; }
 
         [ForeignKey("MarcaId")]
         public MarcaML marca_FK { get; set; }
 
         [Required]
-        
-        public int CategoriaId {get; set;}
+
+        public int CategoriaId { get; set; }
         [ForeignKey("CategoriaId")]
         public CategoriaML categoria_FK { get; set; }
 
         [Required]
-        
-        public int ModeloId {get; set;}
+
+        public int ModeloId { get; set; }
         [ForeignKey("ModeloId")]
         public ModeloML modelo_FK { get; set; }
 
         [Required]
-        public string Descripcion {get; set;}
+        public string Descripcion { get; set; }
+
+         [Required]
+         public decimal Costo {get; set;}
 
         [Required]
-        public decimal Costo {get; set;}
+        public decimal Precio { get; set; }
+
+        // [Required]
+        //public string Garantia {get; set;}
 
         [Required]
-        public decimal Precio {get; set;}
+        public string RutaImagen { get; set; }
 
         [Required]
-        public string Garantia {get; set;}
 
-        [Required]
-        public string RutaImagen {get; set;}
-
-        [Required]
-        
-        public int EstadoId {get; set;}
+        public int EstadoId { get; set; }
         [ForeignKey("EstadoId")]
         public EstadoML estado_FK { get; set; }
 
