@@ -15,7 +15,88 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color: #d1c7c7;
 }
+
+.btn-outline-dark{
+  text-align: left;
+}
+
+.container{
+  /* background-color: #212121; */
+}
+
+/*  nuevos datos como modificar */
+.Form{
+  padding: 11.5%;
+	width: 60%;
+  margin: -100px auto;
+}
+
+.cuadro-input{
+  height: auto;
+	width: 415px;
+	/*background-color: #161B22;*/
+	border-radius: 10px;
+	border: 1px solid #21262D;
+}
+
+.data{
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.casilla{
+	width: 375px;
+	margin-top: 20px;
+	padding: 5px 0 10px;
+	border-radius: 5px;
+	/*background-color: #0D1117; */
+	border: 1px solid #21262D;
+	/* color: white; */
+}
+
+input{
+	display: block;
+	margin-top: 20px;
+}
+
+.btn-primary{
+  margin-top: 20px;
+}
+
+/* fin */
+
+
+/*
+.admin-page{
+
+  background-color: #223055
+}*/
+
+
+/* CARDS */
+
+.card, .col, .row, .card-img-top{
+  color: #17202A;
+  border-radius: 15px;
+}
+
+.col{
+  transition: all .3s;
+}
+.col:hover{
+transform: translateY(-10px);
+box-shadow: 20px rgba(0, 0, 0, .7);
+}
+
+.col:active{
+transform: translateY(-5px);
+box-shadow: 0 5px 2px rgba(0, 0, 0, .7);
+}
+
+/* fin */
+
 
 /*Menu lateral izquierdo*/
 @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);

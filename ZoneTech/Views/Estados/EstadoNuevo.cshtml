@@ -1,0 +1,18 @@
+@model ZoneTech.Models.EstadoML
+@{
+
+}
+
+<section class="Form">
+  <div class="cuadro-input">
+    <div class="data">
+      <form asp-controller="Estados" asp-action="InsertEstado">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Nombre</label>
+          <input type="text" asp-for="Nombre" class="form-control casilla">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    </div>
+  </div>
+</section>

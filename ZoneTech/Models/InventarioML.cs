@@ -7,9 +7,9 @@ namespace ZoneTech.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int ArticuloId {get; set;}
+        public int ArticuloId { get; set; }
 
         [Required]
-        public int Existencia {get; set;}
+        public int Existencia { get; set; }
     }
 }

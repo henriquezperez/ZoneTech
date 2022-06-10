@@ -1,0 +1,49 @@
+@{
+
+}
+@model ZoneTech.Models.TipoUsuarioML
+@{
+    
+}
+<a class="btn btn-success" asp-controller="TipoUsuario" asp-action="TipoUsuarioNuevo">Agregar</a>
+
+<h1>Lista de Tipos de usuarios</h1>
+<table class="table table-dark table-striped" id="tablelist">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Nombre</th>
+      <th scope="col">Estado</th>
+      <th>
+        <th scope="col">Opción</th>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach (var item in ViewBag.listado)
+    {
+      <tr>
+        <td>@item.TipoUsuarioId</td>
+        <td>@item.Nombre</td>
+        <td>@item.EstadoId</td>
+         <td>
+          <td>
+            @Html.ActionLink("Eliminar","TipoUsuarioEliminar",new{id=@item.TipoUsuarioId},new{@class="btn btn-danger"})
+            @Html.ActionLink("Editar","TipoUsuarioEditar",new{id=@item.TipoUsuarioId},new{@class="btn btn-warning"})
+          </td>
+        </td>
+      </tr>
+    }
+  </tbody>
+</table>
+
+@section scripts{
+    <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        //alert("Read load");
+        var tabla = $('#tablelist').DataTable();
+      });
+    </script>
+}

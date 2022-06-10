@@ -1,0 +1,74 @@
+@model ZoneTech.Models.ArticuloML
+@{
+      
+}
+<section class="Form">
+  <div class="cuadro-input">
+    <div class="data">
+        <form asp-controller="Articulos" asp-action="ArticuloEditar">
+             <div class="form-group">
+            <label for="exampleInputEmail1">ID</label>
+            <input type="text" asp-for="ArticuloId" class="form-control casilla">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Nombre</label>
+            <input type="text" asp-for="Nombre" class="form-control casilla">
+          </div>
+          <div class="mb-3">
+              <label for="" class="form-label">Descripción</label>
+              <input type="text" asp-for="Descripcion" class="form-control casilla">              
+          </div>
+            <div class="mb-3">
+                <label for="" class="form-label">Marca</label>
+                <select class="form-select" aria-label="Default select example" name="MarcaId">
+                    @foreach(var item in ViewBag.listMarca)
+                    {
+                      <option value="@item.MarcaId">@item.Nombre</option>
+                    }
+                </select>   
+            </div>
+          <div class="mb-3">
+                  <label for="" class="form-label">Categoria</label>
+                  <select class="form-select" aria-label="Default select example" name="CategoriaId">
+                      @foreach(var item in ViewBag.listCategoria)
+                      {
+                        <option value="@item.CategoriaId">@item.Nombre</option>
+                      }
+                  </select>   
+              </div>
+              <div class="mb-3">
+                <label for="" class="form-label">Modelo</label>
+                <select class="form-select" aria-label="Default select example" name="ModeloId">
+                    @foreach(var item in ViewBag.listModelo)
+                    {
+                      <option value="@item.ModeloId">@item.Nombre</option>
+                    }
+                </select>   
+            </div>
+
+          <div class="mb-3">
+              <label for="" class="form-label">Imagen</label>
+              <input type="text" asp-for="RutaImagen" name="imagen" class="form-control casilla">              
+          </div>
+           <div class="mb-3">
+              <label for="" class="form-label">Costo</label>
+              <input type="text" asp-for="Costo" class="form-control casilla">              
+          </div>
+           <div class="mb-3">
+              <label for="" class="form-label">Precio</label>
+              <input type="text" asp-for="Precio" class="form-control casilla">              
+          </div>
+             <div class="mb-3">
+                <label for="" class="form-label">Estado</label>
+                <select class="form-select" aria-label="Default select example" name="EstadoId">
+                    @foreach(var item in ViewBag.estado)
+                    {
+                    <option value="@item.EstadoId">@item.Nombre</option>
+                    }
+                </select>   
+            </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+</section>

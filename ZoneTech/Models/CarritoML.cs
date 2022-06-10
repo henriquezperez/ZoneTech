@@ -10,14 +10,14 @@ namespace ZoneTech.Models
         public int CarritoId { get; set; }
 
         [Required]
-        
+
         public int UsuarioId { get; set; }
         [ForeignKey("UsuarioId")]
         public UsuarioML usuario_FK { get; set; }
-        
+
         [Required]
-       
-        public int ArticuloId {get; set;}
+
+        public int ArticuloId { get; set; }
         [ForeignKey("ArticuloId")]
         public ArticuloML articulo_FK { get; set; }
 

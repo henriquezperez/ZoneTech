@@ -10,25 +10,25 @@ namespace ZoneTech.Models
         public int DetalleVentaId { get; set; }
 
         [Required]
-       
+
         public int VentaId { get; set; }
         [ForeignKey("VentaId")]
         public VentaML venta_FK { get; set; }
-        
+
         [Required]
-        
-        public int ArticuloId {get; set;}
+
+        public int ArticuloId { get; set; }
         [ForeignKey("ArticuloId")]
         public ArticuloML articulo_FK { get; set; }
 
         [Required]
-        public int Cantidad {get; set;}
+        public int Cantidad { get; set; }
 
         [Required]
-        public decimal PrecioUnitario {get; set;}
+        public decimal PrecioUnitario { get; set; }
 
         [Required]
-        public decimal SubTotal {get; set;}
-        
+        public decimal SubTotal { get; set; }
+
     }
 }

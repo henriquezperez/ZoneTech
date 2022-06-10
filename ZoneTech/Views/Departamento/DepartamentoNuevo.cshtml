@@ -1,0 +1,18 @@
+@model ZoneTech.Models.DepartamentoML
+@{
+
+}
+<h3>Nuevo registro</h3>
+<section class="Form">
+  <div class="cuadro-input">
+    <div class="data">
+      <form asp-controller="Departamento" asp-action="InsertDepartamento">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Nombre</label>
+          <input type="text" asp-for="Nombre" class="form-control casilla">
+        </div>
+        <button type="submit" class="btn btn-primary">Guardar</button>
+    </form>
+    </div>
+  </div>
+</section>

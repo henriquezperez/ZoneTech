@@ -1,116 +1,117 @@
 @{
-
+   var imagePath = "~/img/admin/cliente.png";
 }
 
 <h2>Panel de control</h2>
 <h3>Administrador</h3>
 
-<section>
+<section class="admin-page">
     <div class="row">
             <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
                         <div class="card h-100 border-primary" style="max-width: 20rem">
-                            <img class="card-img-top" src="">"
+                            <img class="card-img-top" src="/img/admin/estado.png" asp-append-version="true"> 
                             <div class="card-body">
                                 <h3 class="card-title"></h5>
                                 <h5 class="card-title">Estado</h5>
                                 <p class="card-text">Configuracion de Estados</p>
-                                @Html.ActionLink("Admin","Estado",new{@class="btn btn-primary"})
+                                @Html.ActionLink("Configurar","Estado","Estados",new{@class="btn btn-primary"})
                             </div>
                         </div>
                     </div>
                       <div class="col">
                         <div class="card h-100 border-primary" style="max-width: 20rem">
-                            <img class="card-img-top" src="">"
+                            <img class="card-img-top" src="@imagePath" asp-append-version="true">
                             <div class="card-body">
                                 <h3 class="card-title"></h5>
                                 <h5 class="card-title">Tipos de clientes</h5>
                                 <p class="card-text">Configuracion de Tipos de clientes</p>
-                                @Html.ActionLink("Admin","TiposClientes",new{@class="btn btn-primary"})
+                                @Html.ActionLink("Configurar","TipoClientes","TipoClientes",new{@class="btn btn-primary"})
                             </div>
                         </div>
                     </div>
                     
                     <div class="col">
                     <div class="card h-100 border-primary" style="max-width: 20rem">
-                        <img class="card-img-top" src="">"
+                        <img class="card-img-top" src="/img/admin/TipoUsuario.png" asp-append-version="true">
                         <div class="card-body">
                             <h3 class="card-title"></h5>
                             <h5 class="card-title">Tipos de Usuarios</h5>
                             <p class="card-text">Configuracion de Tipos de Usuarios</p>
-                            @Html.ActionLink("Admin","TiposUsuarios",new{@class="btn btn-primary"})
+                            @Html.ActionLink("Configurar","TipoUsuarios","TipoUsuario",new{@class="btn btn-primary"})
                         </div>
                     </div>
                     </div>
 
                      <div class="col">
                     <div class="card h-100 border-primary" style="max-width: 20rem">
-                        <img class="card-img-top" src="">"
+                        <img class="card-img-top" src="/img/admin/departamento.png" asp-append-version="true">
+        
                         <div class="card-body">
                             <h3 class="card-title"></h5>
                             <h5 class="card-title">Departamentos</h5>
                             <p class="card-text">Configuracion de Departamentos</p>
-                            @Html.ActionLink("Admin","Departamento",new{@class="btn btn-primary"})
+                            @Html.ActionLink("Configurar","Departamentos","Departamento",new{@class="btn btn-primary"})
                         </div>
                     </div>
                     </div>
 
                      <div class="col">
                     <div class="card h-100 border-primary" style="max-width: 20rem">
-                        <img class="card-img-top" src="">"
+                        <img class="card-img-top" src="/img/admin/municipio.png" asp-append-version="true">
                         <div class="card-body">
                             <h3 class="card-title"></h5>
                             <h5 class="card-title">Municipio</h5>
                             <p class="card-text">Configuración de Municipio</p>
-                            @Html.ActionLink("Admin","Municipio",new{@class="btn btn-primary"})
+                            @Html.ActionLink("Configurar","Municipio","Municipio",new{@class="btn btn-primary"})
                         </div>
                     </div>
                     </div>
 
                     <div class="col">
                     <div class="card h-100 border-primary" style="max-width: 20rem">
-                        <img class="card-img-top" src="">"
+                        <img class="card-img-top" src="/img/admin/marca.png" asp-append-version="true">
                         <div class="card-body">
                             <h3 class="card-title"></h5>
                             <h5 class="card-title">Marcas</h5>
                             <p class="card-text">Configurar marcas</p>
-                            @Html.ActionLink("Admin","Marcas",new{@class="btn btn-primary"})
+                            @Html.ActionLink("Configurar","Marca","Marca",new{@class="btn btn-primary"})
                         </div>
                     </div>
                     </div>
 
                     <div class="col">
                     <div class="card h-100 border-primary" style="max-width: 20rem">
-                        <img class="card-img-top" src="">"
+                        <img class="card-img-top" src="/img/admin/categoria.png" asp-append-version="true">
                         <div class="card-body">
                             <h3 class="card-title"></h5>
                             <h5 class="card-title">Categorias</h5>
                             <p class="card-text">Configurar categorias</p>
-                            @Html.ActionLink("Admin","Categorias",new{@class="btn btn-primary"})
+                            @Html.ActionLink("Configurar","Categoria","Categoria",new{@class="btn btn-primary"})
                         </div>
                     </div>
                     </div>
 
                     <div class="col">
                     <div class="card h-100 border-primary" style="max-width: 20rem">
-                        <img class="card-img-top" src="">"
+                        <img class="card-img-top" src="/img/admin/modelo.png" asp-append-version="true">
                         <div class="card-body">
                             <h3 class="card-title"></h5>
                             <h5 class="card-title">Modelo</h5>
                             <p class="card-text">Configurar categorias</p>
-                            @Html.ActionLink("Admin","Categorias",new{@class="btn btn-primary"})
+                            @Html.ActionLink("Configurar","Modelo","Modelo",new{@class="btn btn-primary"})
                         </div>
                     </div>
                     </div>
 
                     <div class="col">
                     <div class="card h-100 border-primary" style="max-width: 20rem">
-                        <img class="card-img-top" src="">"
+                        <img class="card-img-top" src="/img/admin/articulo.png" asp-append-version="true">
                         <div class="card-body">
                             <h3 class="card-title"></h5>
                             <h5 class="card-title">Articulos</h5>
                             <p class="card-text">Configurar Articulos</p>
-                            @Html.ActionLink("Admin","Articulos",new{@class="btn btn-primary"})
+                            @Html.ActionLink("Configurar","Articulos","Articulos",new{@class="btn btn-primary"})
                         </div>
                     </div>
                     </div>

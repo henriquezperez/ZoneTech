@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using ZoneTech.Models;
 using ZoneTech.Data;
+using ZoneTech.Models;
 
 namespace ZoneTech.Controllers
 {
@@ -8,7 +8,8 @@ namespace ZoneTech.Controllers
     {
         private ApplicationDBContext db;
         private readonly ILogger<AccesoController> _logger;
-        public AccesoController(ILogger<AccesoController> logger, ApplicationDBContext _db){
+        public AccesoController(ILogger<AccesoController> logger, ApplicationDBContext _db)
+        {
             _logger = logger;
             db = _db;
         }
@@ -17,14 +18,19 @@ namespace ZoneTech.Controllers
         {
             return View();
         }
-        
+
         [HttpPost]
         public IActionResult Login(UsuarioML user)
         {
-            var log = db.UsuarioTBL.FirstOrDefault(x=>x.Email == user.Email && x.Clave == user.Clave);
-            if(log != null){
+            var log = db.UsuarioTBL.FirstOrDefault(x => x.Email == user.Email && x.Clave == user.Clave);
+
+            if (log != null)
+            {
                 return View("PruebaDeAcceso");
-            }else{
+
+            }
+            else
+            {
                 return View("Denegado");
             }
             return View();
@@ -37,6 +43,7 @@ namespace ZoneTech.Controllers
 
         public ActionResult PruebaDeAcceso()
         {
+            ViewBag.logi = 1;
             return View();
         }
         public ActionResult Denegado()

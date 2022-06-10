@@ -1,0 +1,28 @@
+@model ZoneTech.Models.MarcaML
+@{
+
+}
+<h3>Nuevo registro</h3>
+
+<section class="Form">
+  <div class="cuadro-input">
+    <div class="data">
+      <form asp-controller="Marca" asp-action="CrearMarca">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Nombre</label>
+          <input type="text" asp-for="Nombre" class="form-control casilla">
+        </div>
+          <div class="mb-3">
+              <label for="" class="form-label">Estados</label>
+              <select class="form-select" aria-label="Default select example" name="EstadoId">
+                  @foreach(var item in ViewBag.estado)
+                  {
+                    <option value="@item.EstadoId">@item.Nombre</option>
+                  }
+              </select>   
+          </div>
+        <button type="submit" class="btn btn-primary">Guardar</button>
+      </form>
+    </div>
+  </div>
+</section>

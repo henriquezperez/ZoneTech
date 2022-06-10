@@ -1,0 +1,40 @@
+
+@model ZoneTech.Models.ModeloML
+@{}
+<h3>Actualizar</h3>
+
+<section class="Form">
+  <div class="cuadro-input">
+    <div class="data">
+        <form asp-controller="Modelo" asp-action="EditarModelo">
+            <div>
+                <label for="">ID</label>
+                <input type="text" asp-for="ModeloId" class="form-control casilla"/>
+            </div>
+            <div>
+              <label for="">Nombre</label>
+                <input type="text" asp-for="Nombre" class="form-control casilla"/>      
+            </div>
+          <div class="mb-3">
+                <label for="" class="form-label">Marca</label>
+                <select class="form-select" aria-label="Default select example" name="MarcaId">
+                    @foreach(var item in ViewBag.marca)
+                    {
+                      <option value="@item.MarcaId">@item.Nombre</option>
+                    }
+                </select>   
+            </div>
+              <div class="mb-3">
+                <label for="" class="form-label">Categoria</label>
+                <select class="form-select" aria-label="Default select example" name="CategoriaId">
+                    @foreach(var item in ViewBag.categoria)
+                    {
+                      <option value="@item.CategoriaId">@item.Nombre</option>
+                    }
+                </select>   
+            </div>
+            <button type="submit" class="btn btn-primary">Guardar</button>
+      </form>
+    </div>
+  </div>
+</section>

@@ -1,7 +1,7 @@
-﻿using ZoneTech.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using ZoneTech.Data;
 using ZoneTech.Models;
 using ZoneTech.Services;
-using Microsoft.EntityFrameworkCore;
 
 namespace ZoneTech.Repository
 {
@@ -40,7 +40,7 @@ namespace ZoneTech.Repository
             select = QuerySelect(select, art).Include(s => s.ModeloId).AsQueryable();
             select = QuerySelect(select, art).Include(s => s.CategoriaId).AsQueryable();
             articulos = select.ToList();
-            
+
             return articulos;
         }
 
@@ -69,7 +69,7 @@ namespace ZoneTech.Repository
             if (pArticulo.Precio > 0)
                 pQuery = pQuery.Where(s => s.Precio == pArticulo.Precio);
             if (pArticulo.EstadoId > 0)
-                pQuery = pQuery.Where(s => s.EstadoId == pArticulo.EstadoId);    
+                pQuery = pQuery.Where(s => s.EstadoId == pArticulo.EstadoId);
             pQuery = pQuery.OrderByDescending(s => s.ArticuloId).AsQueryable();
             return pQuery;
         }

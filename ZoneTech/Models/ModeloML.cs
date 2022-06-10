@@ -12,16 +12,16 @@ namespace ZoneTech.Models
         [Required]
         [StringLength(25)]
         public string Nombre { get; set; }
-        
-        [Required]
-        public int? MarcaId {get; set;}
-        [ForeignKey("MarcaId")]
-        public MarcaML marca_FK {get; set;}
 
         [Required]
-        public int? CategoriaId {get; set;}
+        public int? MarcaId { get; set; }
+        [ForeignKey("MarcaId")]
+        public MarcaML marca_FK { get; set; }
+
+        [Required]
+        public int? CategoriaId { get; set; }
         [ForeignKey("CategoriaId")]
-        public CategoriaML categoria_FK {get; set; }
+        public CategoriaML categoria_FK { get; set; }
 
     }
 }

@@ -20,16 +20,16 @@ namespace ZoneTech.Models
 
         public int ArticuloId { get; set; }
         [ForeignKey("ArticuloId")]
-        public ArticuloML articulo_FK {get; set;}
+        public ArticuloML articulo_FK { get; set; }
 
         [Required]
-        public int Cantidad {get; set;}
+        public int Cantidad { get; set; }
 
         [Required]
-        public decimal PrecioUnitario {get; set;}
+        public decimal PrecioUnitario { get; set; }
 
         [Required]
-        public decimal SubTotal {get; set;}
+        public decimal SubTotal { get; set; }
 
     }
 }

@@ -16308,8 +16308,33 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Admin\\CategoriaNueva.cshtml",
-      "TargetPath": "Views\\Admin\\CategoriaNueva.cshtml",
+      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Municipio\\EditarMunicipio.cshtml",
+      "TargetPath": "Views\\Municipio\\EditarMunicipio.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Departamento\\Departamentos.cshtml",
+      "TargetPath": "Views\\Departamento\\Departamentos.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Articulos\\Articuloeditar.cshtml",
+      "TargetPath": "Views\\Articulos\\Articuloeditar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Municipio\\CrearMunicipio.cshtml",
+      "TargetPath": "Views\\Municipio\\CrearMunicipio.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Articulos\\Articulos.cshtml",
+      "TargetPath": "Views\\Articulos\\Articulos.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Marca\\CrearMarca.cshtml",
+      "TargetPath": "Views\\Marca\\CrearMarca.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16318,13 +16343,18 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Admin\\CategoriaEditar.cshtml",
-      "TargetPath": "Views\\Admin\\CategoriaEditar.cshtml",
+      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\TipoClientes\\TipoClienteNuevo.cshtml",
+      "TargetPath": "Views\\TipoClientes\\TipoClienteNuevo.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Admin\\Estado.cshtml",
-      "TargetPath": "Views\\Admin\\Estado.cshtml",
+      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\TipoClientes\\TipoClienteEditar.cshtml",
+      "TargetPath": "Views\\TipoClientes\\TipoClienteEditar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Estados\\Estado.cshtml",
+      "TargetPath": "Views\\Estados\\Estado.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16333,8 +16363,18 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Admin\\Articulos.cshtml",
-      "TargetPath": "Views\\Admin\\Articulos.cshtml",
+      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Categoria\\EditarCategoria.cshtml",
+      "TargetPath": "Views\\Categoria\\EditarCategoria.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Departamento\\DepartamentoNuevo.cshtml",
+      "TargetPath": "Views\\Departamento\\DepartamentoNuevo.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\TipoClientes\\TipoClientes.cshtml",
+      "TargetPath": "Views\\TipoClientes\\TipoClientes.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16343,8 +16383,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Admin\\Marcas.cshtml",
-      "TargetPath": "Views\\Admin\\Marcas.cshtml",
+      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Marca\\Marca.cshtml",
+      "TargetPath": "Views\\Marca\\Marca.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16353,18 +16393,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Admin\\EstadoEditar.cshtml",
-      "TargetPath": "Views\\Admin\\EstadoEditar.cshtml",
+      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Modelo\\EditarModelo.cshtml",
+      "TargetPath": "Views\\Modelo\\EditarModelo.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Admin\\MarcaNuevo.cshtml",
-      "TargetPath": "Views\\Admin\\MarcaNuevo.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Admin\\Articuloeditar.cshtml",
-      "TargetPath": "Views\\Admin\\Articuloeditar.cshtml",
+      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Departamento\\DepartamentoEditar.cshtml",
+      "TargetPath": "Views\\Departamento\\DepartamentoEditar.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16383,6 +16418,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Municipio\\Municipio.cshtml",
+      "TargetPath": "Views\\Municipio\\Municipio.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
@@ -16398,18 +16438,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Admin\\MarcasEditar.cshtml",
-      "TargetPath": "Views\\Admin\\MarcasEditar.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Admin\\TiposClientesEditar.cshtml",
-      "TargetPath": "Views\\Admin\\TiposClientesEditar.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Acceso\\Denegado.cshtml",
       "TargetPath": "Views\\Acceso\\Denegado.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Modelo\\CrearModelo.cshtml",
+      "TargetPath": "Views\\Modelo\\CrearModelo.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16418,23 +16453,48 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Admin\\TipoClientesNuevo.cshtml",
-      "TargetPath": "Views\\Admin\\TipoClientesNuevo.cshtml",
+      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\TipoUsuario\\TipoUsuarioNuevo.cshtml",
+      "TargetPath": "Views\\TipoUsuario\\TipoUsuarioNuevo.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Admin\\TiposClientes.cshtml",
-      "TargetPath": "Views\\Admin\\TiposClientes.cshtml",
+      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Modelo\\Modelo.cshtml",
+      "TargetPath": "Views\\Modelo\\Modelo.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Admin\\EstadoNuevo.cshtml",
-      "TargetPath": "Views\\Admin\\EstadoNuevo.cshtml",
+      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Marca\\EditarMarca.cshtml",
+      "TargetPath": "Views\\Marca\\EditarMarca.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Admin\\articulonuevo.cshtml",
-      "TargetPath": "Views\\Admin\\articulonuevo.cshtml",
+      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Estados\\EstadoNuevo.cshtml",
+      "TargetPath": "Views\\Estados\\EstadoNuevo.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\TipoUsuario\\TipoUsuarios.cshtml",
+      "TargetPath": "Views\\TipoUsuario\\TipoUsuarios.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\TipoUsuario\\TipoUsuarioEditar.cshtml",
+      "TargetPath": "Views\\TipoUsuario\\TipoUsuarioEditar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Categoria\\CrearCategoria.cshtml",
+      "TargetPath": "Views\\Categoria\\CrearCategoria.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Estados\\EstadoEditar.cshtml",
+      "TargetPath": "Views\\Estados\\EstadoEditar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Home\\PageNotFound.cshtml",
+      "TargetPath": "Views\\Home\\PageNotFound.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16443,13 +16503,18 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Admin\\Categorias.cshtml",
-      "TargetPath": "Views\\Admin\\Categorias.cshtml",
+      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Articulos\\articulonuevo.cshtml",
+      "TargetPath": "Views\\Articulos\\articulonuevo.cshtml",
       "FileKind": "mvc"
     },
     {
       "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Acceso\\PruebaDeAcceso.cshtml",
       "TargetPath": "Views\\Acceso\\PruebaDeAcceso.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Biblioteca\\Escritorio\\ZoneTech\\ZoneTech\\Views\\Categoria\\Categoria.cshtml",
+      "TargetPath": "Views\\Categoria\\Categoria.cshtml",
       "FileKind": "mvc"
     }
   ],
